@@ -17,6 +17,7 @@ include_directories(${SFML_INCLUDE_DIR})
 add_executable(nunticle
     src/main.cpp
     src/graphics/renderer.cpp
+    src/graphics/sprite.cpp
     src/game.cpp
 )
 

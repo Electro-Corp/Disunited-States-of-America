@@ -12,8 +12,7 @@ void Rendering::Renderer::update(){
     if(window->isOpen()){
         // Handle input
         sf::Event event;
-        while (window->pollEvent(event))
-        {
+        while (window->pollEvent(event)) {
             if (event.type == sf::Event::Closed)
                 window->close();
         }
@@ -33,5 +32,5 @@ void Rendering::Renderer::update(){
 
 
 Rendering::Renderer::~Renderer(){
-
+    std::cout << "Nunticle Renderer exiting\n";
 }

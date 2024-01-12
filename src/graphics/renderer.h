@@ -5,6 +5,7 @@
 #define RENDERER_H
 #include <SFML/Graphics.hpp>
 #include <game.h>
+#include <iostream>
 
 namespace Rendering{
     class Renderer{
