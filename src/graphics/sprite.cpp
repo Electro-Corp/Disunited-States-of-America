@@ -2,6 +2,10 @@
 */
 #include <graphics/sprite.h>
 
+Rendering::Sprite::Sprite(){
+    
+}
+
 Rendering::Sprite::Sprite(std::string fileName){
     // Load texture
     sf::Texture texture;
@@ -10,4 +14,12 @@ Rendering::Sprite::Sprite(std::string fileName){
         printf("Failed to load texture %s\n", fileName.c_str());
         exit(-1);
     }
+    // Smooth out the texture
+    texture.setSmooth(true);
+
+    sprite.setTexture(texture);
+}
+
+sf::Sprite Rendering::Sprite::getSprite(){
+    return this->sprite;
 }

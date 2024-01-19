@@ -8,12 +8,11 @@
 namespace Engine {
     class GameObject{
         private:
-            Transform::Vector2 position;
-            float angle;
+            Transform::Transform transform;
 
-            Rendering::Sprite sprite;   
+            Rendering::Sprite sprite;
         public:
-            GameObject(Transform::Vector2, float);
+            GameObject(Transform::Transform transform);
 
             Transform::Vector2 getPos();
             float getRotation();

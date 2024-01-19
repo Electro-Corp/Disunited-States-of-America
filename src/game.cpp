@@ -3,7 +3,7 @@
 #include <game.h>
 
 Game::Nunticle::Nunticle(){
-
+    scriptMan = new Scripting::ScriptManager("../assets/scripts");
 }
 
 void Game::Nunticle::endGame(){

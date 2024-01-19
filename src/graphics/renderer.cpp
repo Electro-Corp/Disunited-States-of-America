@@ -20,7 +20,7 @@ void Rendering::Renderer::update(){
         // Clear Display
         window->clear();
         // Draw
-
+        
         // Display
         window->display();
     }else{

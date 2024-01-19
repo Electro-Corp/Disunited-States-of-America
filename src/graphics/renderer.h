@@ -8,6 +8,14 @@
 #include <iostream>
 
 namespace Rendering{
+
+    enum RenderLayers{
+        BACKGROUND,
+        MIDGROUND,
+        FOREGROUND,
+        UI
+    };
+
     class Renderer{
         private:
             sf::RenderWindow* window;
