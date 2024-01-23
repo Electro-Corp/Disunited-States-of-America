@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include <game.h>
 #include <graphics/renderer.h>
+#include <game.h>
 
 int main(int argv, char** args){
 	Game::Nunticle* game = new Game::Nunticle();

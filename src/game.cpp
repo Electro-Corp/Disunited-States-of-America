@@ -4,6 +4,8 @@
 
 Game::Nunticle::Nunticle(){
     scriptMan = new Scripting::ScriptManager("../assets/scripts");
+
+    std::cout << "NUNTICLE GAME ENGINE\nit just works!\n";
 }
 
 void Game::Nunticle::endGame(){

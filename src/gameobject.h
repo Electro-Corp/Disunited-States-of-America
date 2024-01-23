@@ -1,8 +1,7 @@
 /*
     GameObject, a thing in the world
 */
-#ifndef GAMEOBJECT_H
-#define GAMEOBJECT_H
+#pragma once
 #include <transform.h>
 #include <graphics/sprite.h>
 namespace Engine {
@@ -21,4 +20,3 @@ namespace Engine {
             virtual void update() = 0; 
     };
 }
-#endif

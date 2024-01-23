@@ -6,12 +6,11 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include <graphics/renderer.h>
-
 namespace Rendering{
     class Sprite{
         private:
             sf::Sprite sprite;
-            Rendering::RenderLayers renderLayer;
+            int renderLayer;
         public:
             Sprite();
             Sprite(std::string fileName);

@@ -20,16 +20,16 @@ include_directories(/usr/local/include ${LUA_INCLUDE_DIR})
 add_executable(nunticle
     # main
     src/main.cpp
-    # graphics
-    src/graphics/renderer.cpp
-    src/graphics/sprite.cpp
     # engine
     src/transform.cpp
     src/gameobject.cpp
-    # scripting
-    src/scripting/scriptmanager.cpp
     # nunticle
     src/game.cpp
+    # graphics
+    src/graphics/renderer.cpp
+    src/graphics/sprite.cpp
+    # scripting
+    src/scripting/scriptmanager.cpp
 )
 
 

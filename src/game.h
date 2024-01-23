@@ -1,8 +1,7 @@
 /*
     Manages the game
 */
-#ifndef GAME_H
-#define GAME_H
+#pragma once
 
 #include <stdlib.h>
 #include <iostream>
@@ -20,4 +19,3 @@ namespace Game{
         void endGame();
     };
 }
-#endif

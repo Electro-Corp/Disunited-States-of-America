@@ -1,19 +1,20 @@
 /*
     Rendering 
 */
-#ifndef REDNERER_H
-#define RENDERER_H
+#pragma once
 #include <SFML/Graphics.hpp>
-#include <game.h>
 #include <iostream>
+
+#include <game.h>
 
 namespace Rendering{
 
+    // Layer to render on
     enum RenderLayers{
-        BACKGROUND,
-        MIDGROUND,
-        FOREGROUND,
-        UI
+        BACKGROUND = 0,
+        MIDGROUND = 1,
+        FOREGROUND = 2,
+        UI = 3
     };
 
     class Renderer{
@@ -30,4 +31,3 @@ namespace Rendering{
             ~Renderer();
     };
 }
-#endif
