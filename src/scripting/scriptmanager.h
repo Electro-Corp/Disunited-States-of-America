@@ -20,11 +20,7 @@ extern "C"
 #include <LuaBridge/LuaBridge.h>
 
 // Include things that need to be exposed to Lua
-#include <gameobject.h>
-#include <transform.h>
-#include <gameObjects/boat.h>
-#include <graphics/sprite.h>
-#include <game.h>
+
 
 namespace Scripting{
     class ScriptManager{

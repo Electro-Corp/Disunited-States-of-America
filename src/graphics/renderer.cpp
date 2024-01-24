@@ -8,7 +8,7 @@ Rendering::Renderer::Renderer(std::string title, int width, int height, Game::Nu
 }
 
 
-void Rendering::Renderer::update(){
+void Rendering::Renderer::update(Engine::Scene scene){
     if(window->isOpen()){
         // Handle input
         sf::Event event;
@@ -20,7 +20,9 @@ void Rendering::Renderer::update(){
         // Clear Display
         window->clear();
         // Draw
-        
+        for (Engine::GameObject* &gameObj : scene.getObjs()){
+            window->draw(gameObj->getSprite()->getSprite());
+        }
         // Display
         window->display();
     }else{

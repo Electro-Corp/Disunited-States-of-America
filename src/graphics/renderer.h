@@ -5,8 +5,11 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 
+#include <scene.h>
 #include <game.h>
-
+namespace Engine{
+    class Scene;
+}
 namespace Rendering{
 
     // Layer to render on
@@ -26,7 +29,7 @@ namespace Rendering{
         public:
             Renderer(std::string title, int width, int height, Game::Nunticle* game);
 
-            void update();
+            void update(Engine::Scene scene);
 
             ~Renderer();
     };

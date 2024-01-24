@@ -1,14 +1,15 @@
 /*
     Sprite
 */
-#ifndef SPRITE_H
-#define SPRITE_H
+#pragma once
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include <graphics/renderer.h>
+
 namespace Rendering{
     class Sprite{
         private:
+            sf::Texture texture;
             sf::Sprite sprite;
             int renderLayer;
         public:
@@ -18,4 +19,3 @@ namespace Rendering{
             sf::Sprite getSprite();
     };
 }
-#endif

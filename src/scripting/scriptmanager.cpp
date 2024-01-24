@@ -11,7 +11,7 @@ Scripting::ScriptManager::ScriptManager(std::string p_scriptPath) {
     m_luaState = luaL_newstate();
     luaL_openlibs(m_luaState);
 
-    for (const auto & entry : fs::directory_iterator("game/" + p_scriptPath)){
+    for (const auto & entry : fs::directory_iterator(p_scriptPath)){
         // Load scripts
         std::ifstream file((char*) entry.path().u8string().c_str());
         int scriptLoadStatus = luaL_dofile(m_luaState, entry.path().u8string().c_str());
