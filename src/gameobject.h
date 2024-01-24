@@ -9,19 +9,28 @@ namespace Rendering{
 }
 // Gameobject
 namespace Engine {
+    /**
+     * A gameObject 
+    */
     class GameObject{
         private:
-            Transform::Transform transform;
         protected:
             Rendering::Sprite* sprite;
         public:
+            Transform::Transform transform;
+            
             GameObject();
             GameObject(Transform::Transform transform);
 
+            // Get position
             Transform::Vector2 getPos();
+            // Get rotation
             float getRotation();
 
+            // Return the sprite
             Rendering::Sprite* getSprite();
+
+            void updateTransform();
 
             // They derive!
             virtual void update() = 0; 

@@ -29,6 +29,7 @@ namespace Rendering{
         public:
             Renderer(std::string title, int width, int height, Game::Nunticle* game);
 
+            // Update the render view based on the current scene
             void update(Engine::Scene scene);
 
             ~Renderer();

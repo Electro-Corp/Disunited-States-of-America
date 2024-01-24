@@ -19,6 +19,6 @@ Rendering::Sprite::Sprite(std::string fileName){
     sprite.setTexture(texture);
 }
 
-sf::Sprite Rendering::Sprite::getSprite(){
-    return this->sprite;
+sf::Sprite* Rendering::Sprite::getSprite(){
+    return &(this->sprite);
 }

@@ -21,7 +21,8 @@ void Rendering::Renderer::update(Engine::Scene scene){
         window->clear();
         // Draw
         for (Engine::GameObject* &gameObj : scene.getObjs()){
-            window->draw(gameObj->getSprite()->getSprite());
+            gameObj->update();
+            window->draw(*(gameObj->getSprite()->getSprite()));
         }
         // Display
         window->display();

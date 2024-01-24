@@ -11,6 +11,8 @@ namespace Engine{
 
     class Scene{
         private:
+            std::string name;
+            
             std::vector<Engine::GameObject*> gameObjects;
         public:
             Scene(std::string name);

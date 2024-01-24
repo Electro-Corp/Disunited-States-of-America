@@ -7,5 +7,6 @@ Game::Boat::Boat(std::string texLoc){
 }
 
 void Game::Boat::update(){
-
+    // Update transform
+    this->updateTransform();
 }

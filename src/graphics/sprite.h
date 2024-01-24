@@ -16,6 +16,7 @@ namespace Rendering{
             Sprite();
             Sprite(std::string fileName);
 
-            sf::Sprite getSprite();
+            // Return the SFML sprite
+            sf::Sprite* getSprite();
     };
 }

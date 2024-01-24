@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 
 #include <graphics/renderer.h>
 #include <scene.h>
@@ -14,8 +15,16 @@ int main(int argv, char** args){
 	scene.addObject(boat);
 	// Create renderer	
 	Rendering::Renderer renderer(std::string("Nunticle"), 800, 600, game);
+	float i = 0;
 	while(1){
+		// Test transformations
+		i += 0.01f;
+		boat->transform.position.x = (sin(i) * 100);
+		boat->transform.position.y = (sin(i) * 100);
+
+		// Update the render
 		renderer.update(scene);
+		
 	}
 	return 0;
 }

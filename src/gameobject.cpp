@@ -17,6 +17,20 @@ Rendering::Sprite* Engine::GameObject::getSprite(){
     return sprite;
 }
 
+void Engine::GameObject::updateTransform(){
+    // Set position based on Transform
+    this->sprite->getSprite()->setPosition(
+        sf::Vector2f(
+            this->transform.position.x,
+            this->transform.position.y
+        )
+    );
+    // Set angle based on Transform 
+    this->sprite->getSprite()->setRotation(
+        this->getRotation()
+    );
+}
+
 float Engine::GameObject::getRotation(){
     return transform.angle;
 }

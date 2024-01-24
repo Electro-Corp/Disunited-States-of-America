@@ -17,6 +17,6 @@ Scripting::ScriptManager::ScriptManager(std::string p_scriptPath) {
         int scriptLoadStatus = luaL_dofile(m_luaState, entry.path().u8string().c_str());
 
         updateFuncs.push_back(luabridge::getGlobal(m_luaState, "update"));
-        initFuncs.push_back(luabridge::getGlobal(m_luaState, "update"));
+        initFuncs.push_back(luabridge::getGlobal(m_luaState, "init"));
     }
 }
