@@ -8,6 +8,10 @@ Game::Nunticle::Nunticle(){
     std::cout << "NUNTICLE GAME ENGINE\nit just works!\n";
 }
 
+void Game::Nunticle::loadScript(Engine::GameObject* obj, std::string path){
+    this->scriptMan->loadScriptForObject(obj, path);
+}
+
 void Game::Nunticle::endGame(){
     // Confirm
     // Exit

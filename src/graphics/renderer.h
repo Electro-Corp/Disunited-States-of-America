@@ -10,6 +10,9 @@
 namespace Engine{
     class Scene;
 }
+namespace Game{
+    class Nunticle;
+}
 namespace Rendering{
 
     // Layer to render on

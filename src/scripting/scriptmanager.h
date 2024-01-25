@@ -20,9 +20,20 @@ extern "C"
 #include <LuaBridge/LuaBridge.h>
 
 // Include things that need to be exposed to Lua
-
-
+#include <scene.h>
+#include <gameobject.h>
+namespace Engine{
+    class GameObject;
+}
 namespace Scripting{
+    class Script{
+        private:
+            luabridge::LuaRef* init;
+            luabridge::LuaRef* update;
+        public:
+            Script(luabridge::LuaRef* init, luabridge::LuaRef* update);
+    };
+
     class ScriptManager{
         private:
             lua_State* m_luaState;
@@ -31,6 +42,14 @@ namespace Scripting{
         public:
             ScriptManager();
             ScriptManager(std::string p_scriptPath);
+
+            void loadScriptForObject(Engine::GameObject* object, std::string path);
+
+            // Expose GameObject features to Lua
+            void exposeGameObjects();
+
+            // Expose Scene features to Lua
+            void exposeScene();
     };
 };
 

@@ -12,13 +12,14 @@ namespace Engine{
     class Scene{
         private:
             std::string name;
-            
+
             std::vector<Engine::GameObject*> gameObjects;
         public:
             Scene(std::string name);
 
             void addObject(Engine::GameObject* object);
 
+            // Get all objects in scene
             std::vector<Engine::GameObject*> getObjs();
     };
 }

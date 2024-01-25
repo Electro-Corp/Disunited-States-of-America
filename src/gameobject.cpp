@@ -34,3 +34,7 @@ void Engine::GameObject::updateTransform(){
 float Engine::GameObject::getRotation(){
     return transform.angle;
 }
+
+void Engine::GameObject::update(){
+    updateTransform();
+}

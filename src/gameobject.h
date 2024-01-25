@@ -7,6 +7,9 @@
 namespace Rendering{
     class Sprite;
 }
+namespace Scripting{
+    class Script;
+}
 // Gameobject
 namespace Engine {
     /**
@@ -17,8 +20,9 @@ namespace Engine {
         protected:
             Rendering::Sprite* sprite;
         public:
+            Scripting::Script* script;
             Transform::Transform transform;
-            
+
             GameObject();
             GameObject(Transform::Transform transform);
 
@@ -33,6 +37,6 @@ namespace Engine {
             void updateTransform();
 
             // They derive!
-            virtual void update() = 0; 
+            void update(); 
     };
 }

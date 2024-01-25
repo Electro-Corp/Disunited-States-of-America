@@ -19,7 +19,10 @@ Transform::Transform::Transform(float x, float y, float ang){
     this->angle = ang;
 }
 
-
+Transform::Transform::Transform(Vector2 pos, float ang){
+    this->position = pos;
+    this->angle = ang;
+}
 
 Transform::Vector2 Transform::Vector2::operator+(Vector2 other){
     // Add the vectors

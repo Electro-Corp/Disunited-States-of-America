@@ -21,6 +21,8 @@ add_executable(nunticle
     # Sprite
     src/graphics/sprite.h
     src/graphics/sprite.cpp
+    # scripting
+    src/scripting/scriptmanager.cpp
     # engine
     src/transform.cpp
     src/gameobject.cpp
@@ -29,8 +31,6 @@ add_executable(nunticle
     src/game.cpp
     # graphics
     src/graphics/renderer.cpp
-    # scripting
-    src/scripting/scriptmanager.cpp
     # objects
     src/gameObjects/boat.cpp
     # main
@@ -39,7 +39,7 @@ add_executable(nunticle
 
 
 # Flags
-target_compile_options(nunticle PUBLIC -fpermissive)
+target_compile_options(nunticle PUBLIC -fpermissive -g)
 
 target_link_libraries(nunticle ${SFML_LIBRARIES} ${SFML_DEPENDENCIES} sfml-graphics)
 target_link_libraries(nunticle ${LUA_LIBRARIES} ${LUA_DEPENDENCIES})
