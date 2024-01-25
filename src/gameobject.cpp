@@ -31,10 +31,17 @@ void Engine::GameObject::updateTransform(){
     );
 }
 
+void Engine::GameObject::updateScript(){
+    if(this->script){
+        this->script->update();
+    }
+}
+
 float Engine::GameObject::getRotation(){
     return transform.angle;
 }
 
 void Engine::GameObject::update(){
     updateTransform();
+    updateScript();
 }

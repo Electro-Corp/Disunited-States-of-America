@@ -34,6 +34,7 @@ namespace Engine {
             // Return the sprite
             Rendering::Sprite* getSprite();
 
+            void updateScript();
             void updateTransform();
 
             // They derive!

@@ -28,13 +28,20 @@ namespace Engine{
 namespace Scripting{
     class Script{
         private:
-            luabridge::LuaRef* init;
-            luabridge::LuaRef* update;
+            luabridge::LuaRef init;
+            luabridge::LuaRef updateFunc;
+
+            Engine::GameObject* thisObj;
         public:
-            Script(luabridge::LuaRef* init, luabridge::LuaRef* update);
+            Script(lua_State* L);
+
+            void setGameObj(Engine::GameObject*);
+
+            void update();
     };
 
     class ScriptManager{
+        friend Script; 
         private:
             lua_State* m_luaState;
             std::vector<luabridge::LuaRef> initFuncs;

@@ -20,8 +20,8 @@ int main(int argv, char** args){
 	while(1){
 		// Test transformations
 		i += 0.001f;
-		boat->transform.position.x = abs(sin(i) * 700);
-		boat->transform.position.y = abs(sin(i) * 500);
+		//boat->transform.position.x = abs(sin(i) * 700);
+		//boat->transform.position.y = abs(sin(i) * 500);
 
 		// Update the render
 		renderer.update(scene);

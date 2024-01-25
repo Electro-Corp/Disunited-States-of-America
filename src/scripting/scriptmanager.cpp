@@ -2,9 +2,18 @@
 */
 #include <scripting/scriptmanager.h>
 
-Scripting::Script::Script(luabridge::LuaRef* init, luabridge::LuaRef* update){
-    this->init = init;
-    this->update = update;
+Scripting::Script::Script(lua_State* L) : 
+    updateFunc(luabridge::getGlobal(L, "update")), 
+    init(luabridge::getGlobal(L, "init")){
+
+}   
+
+void Scripting::Script::setGameObj(Engine::GameObject* obj){
+    this->thisObj = obj;
+}
+
+void Scripting::Script::update(){
+    updateFunc(thisObj);
 }
 
 Scripting::ScriptManager::ScriptManager(){
@@ -26,7 +35,8 @@ void Scripting::ScriptManager::loadScriptForObject(Engine::GameObject* object, s
         std::ifstream file((char*) entry.path().u8string().c_str());
         int scriptLoadStatus = luaL_dofile(m_luaState, entry.path().u8string().c_str());
 
-        object->script = new Script(&luabridge::getGlobal(m_luaState, "init"), &luabridge::getGlobal(m_luaState, "update"));
+        object->script = new Script(m_luaState);
+        object->script->setGameObj(object);
 
         /*updateFuncs.push_back(luabridge::getGlobal(m_luaState, "update"));
         initFuncs.push_back(luabridge::getGlobal(m_luaState, "init"));*/
@@ -34,6 +44,7 @@ void Scripting::ScriptManager::loadScriptForObject(Engine::GameObject* object, s
 }
 
 void Scripting::ScriptManager::exposeGameObjects(){
+    printf("[ScriptManager] Expose Vector2/Transform/GameObject to Lua\n");
     // Expose Transform
     luabridge::getGlobalNamespace(m_luaState)
         .beginClass<Transform::Vector2>("Vector2")
