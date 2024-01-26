@@ -29,6 +29,13 @@ void Engine::GameObject::updateTransform(){
     this->sprite->getSprite()->setRotation(
         this->getRotation()
     );
+    // Set scale
+    this->sprite->getSprite()->setScale(
+        sf::Vector2f(
+            this->transform.scale.x,
+            this->transform.scale.y
+        )
+    );
 }
 
 void Engine::GameObject::updateScript(){

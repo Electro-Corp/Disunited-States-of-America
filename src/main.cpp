@@ -12,16 +12,11 @@ int main(int argv, char** args){
 	Engine::Scene scene("Test");
 
 	Game::Boat* boat = new Game::Boat("../assets/textures/testing/testBoat.jpeg");
-	game->loadScript(boat, "../assets/scripts");
+	game->loadScript(boat, "../assets/scripts/testScript.lua");
 	scene.addObject(boat);
 	// Create renderer	
 	Rendering::Renderer renderer(std::string("Nunticle"), 800, 600, game);
-	float i = 0;
 	while(1){
-		// Test transformations
-		i += 0.001f;
-		//boat->transform.position.x = abs(sin(i) * 700);
-		//boat->transform.position.y = abs(sin(i) * 500);
 
 		// Update the render
 		renderer.update(scene);

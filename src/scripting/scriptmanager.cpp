@@ -30,17 +30,17 @@ Scripting::ScriptManager::ScriptManager(std::string p_scriptPath) {
 }
 
 void Scripting::ScriptManager::loadScriptForObject(Engine::GameObject* object, std::string path){
-    for (const auto & entry : fs::directory_iterator(path)){
+    //for (const auto & entry : fs::directory_iterator(path)){
         // Load scripts
-        std::ifstream file((char*) entry.path().u8string().c_str());
-        int scriptLoadStatus = luaL_dofile(m_luaState, entry.path().u8string().c_str());
+        std::ifstream file((char*) path.c_str());
+        int scriptLoadStatus = luaL_dofile(m_luaState, path.c_str());
 
         object->script = new Script(m_luaState);
         object->script->setGameObj(object);
 
         /*updateFuncs.push_back(luabridge::getGlobal(m_luaState, "update"));
         initFuncs.push_back(luabridge::getGlobal(m_luaState, "init"));*/
-    }
+    //}
 }
 
 void Scripting::ScriptManager::exposeGameObjects(){
@@ -60,6 +60,7 @@ void Scripting::ScriptManager::exposeGameObjects(){
         .addConstructor<void(*) (Transform::Vector2, float)>()
         .addProperty("position", &Transform::Transform::position)
         .addProperty("angle", &Transform::Transform::angle)
+        .addProperty("scale", &Transform::Transform::scale)
         .endClass();
 
     luabridge::getGlobalNamespace(m_luaState)

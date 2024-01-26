@@ -16,7 +16,7 @@ namespace Transform{
 
     class Transform{
         public:
-        Vector2 position;
+        Vector2 position, scale;
         float angle;
 
         // Empty
