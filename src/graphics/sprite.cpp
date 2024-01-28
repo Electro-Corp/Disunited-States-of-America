@@ -17,6 +17,10 @@ Rendering::Sprite::Sprite(std::string fileName){
     texture.setSmooth(true);
 
     sprite.setTexture(texture);
+
+    sprite.setOrigin(
+        (sf::Vector2f)texture.getSize() / 2.f
+    );
 }
 
 sf::Sprite* Rendering::Sprite::getSprite(){
