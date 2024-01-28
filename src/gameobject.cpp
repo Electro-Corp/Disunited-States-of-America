@@ -36,14 +36,6 @@ void Engine::GameObject::updateTransform(){
             this->transform.scale.y
         )
     );
-
-    // Make sure origin is the center
-    this->sprite->getSprite()->setOrigin(
-        sf::Vector2f(
-            this->sprite->getSprite()->getGlobalBounds().width / 2,
-            this->sprite->getSprite()->getGlobalBounds().height / 2
-        )
-    );
 }
 
 void Engine::GameObject::updateScript(){
