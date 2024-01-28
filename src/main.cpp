@@ -11,15 +11,16 @@ int main(int argv, char** args){
 
 	Engine::Scene scene("Test");
 
-	Game::Boat* boat = new Game::Boat("../assets/textures/testing/testBoat.jpeg");
+	Game::Boat* boat = new Game::Boat("../assets/textures/testing/boat.png");
 	game->loadScript(boat, "../assets/scripts/testScript.lua");
 	scene.addObject(boat);
 	// Create renderer	
-	Rendering::Renderer renderer(std::string("Nunticle"), 800, 600, game);
+
+	game->initScripts();
+	
 	while(1){
 
-		// Update the render
-		renderer.update(scene);
+		game->tick(scene);
 		
 	}
 	return 0;

@@ -17,6 +17,9 @@ void Rendering::Renderer::update(Engine::Scene scene){
                 window->close();
         }
 
+        this->mouseX = sf::Mouse::getPosition().x;
+        this->mouseY = sf::Mouse::getPosition().y;
+
         // Clear Display
         window->clear();
         // Draw

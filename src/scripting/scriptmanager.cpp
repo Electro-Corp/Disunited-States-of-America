@@ -20,13 +20,20 @@ Scripting::ScriptManager::ScriptManager(){
     
 }
 
-Scripting::ScriptManager::ScriptManager(std::string p_scriptPath) {   
+Scripting::ScriptManager::ScriptManager(std::string p_scriptPath, Rendering::Renderer* renderer) {   
     // Create Lua state             
     m_luaState = luaL_newstate();
     luaL_openlibs(m_luaState);
 
+    m_renderManGlob = std::unique_ptr<Rendering::Renderer>(renderer);
     
-    exposeGameObjects();
+    exposeGame();
+}
+
+void Scripting::ScriptManager::initScripts(){
+    for(auto& script : initFuncs){
+        script();
+    }
 }
 
 void Scripting::ScriptManager::loadScriptForObject(Engine::GameObject* object, std::string path){
@@ -38,12 +45,12 @@ void Scripting::ScriptManager::loadScriptForObject(Engine::GameObject* object, s
         object->script = new Script(m_luaState);
         object->script->setGameObj(object);
 
-        /*updateFuncs.push_back(luabridge::getGlobal(m_luaState, "update"));
-        initFuncs.push_back(luabridge::getGlobal(m_luaState, "init"));*/
+        updateFuncs.push_back(luabridge::getGlobal(m_luaState, "update"));
+        initFuncs.push_back(luabridge::getGlobal(m_luaState, "init"));
     //}
 }
 
-void Scripting::ScriptManager::exposeGameObjects(){
+void Scripting::ScriptManager::exposeGame(){
     printf("[ScriptManager] Expose Vector2/Transform/GameObject to Lua\n");
     // Expose Transform
     luabridge::getGlobalNamespace(m_luaState)
@@ -70,4 +77,13 @@ void Scripting::ScriptManager::exposeGameObjects(){
         .addFunction("getSprite", &Engine::GameObject::getSprite)
         .addProperty("transform", &Engine::GameObject::transform)
         .endClass();
+
+    luabridge::getGlobalNamespace(m_luaState)
+        .beginClass<Rendering::Renderer>("Renderer")
+        .addConstructor<void(*) (std::string, int, int, Game::Nunticle*)>()
+        .addProperty("mouseX", &Rendering::Renderer::mouseX)
+        .addProperty("mouseY", &Rendering::Renderer::mouseY)
+        .endClass();
+    
+    luabridge::setGlobal(m_luaState, m_renderManGlob.get(), "Graphics");
 }

@@ -12,16 +12,25 @@ namespace Scripting{
 }
 namespace Engine{
     class GameObject;
+    class Scene;
+}
+namespace Rendering{
+    class Renderer;
 }
 namespace Game{
     // Nunticle
     class Nunticle{
         private:
         Scripting::ScriptManager* scriptMan;
+        Rendering::Renderer* renderer;
         public:
         Nunticle();
 
         void loadScript(Engine::GameObject* object, std::string path);
+
+        void tick(Engine::Scene);
+
+        void initScripts();
 
         void endGame();
     };

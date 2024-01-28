@@ -25,6 +25,12 @@ extern "C"
 namespace Engine{
     class GameObject;
 }
+namespace Rendering{
+    class Renderer;
+}
+namespace Game{
+    class Nunticle;
+}
 namespace Scripting{
     class Script{
         private:
@@ -46,14 +52,18 @@ namespace Scripting{
             lua_State* m_luaState;
             std::vector<luabridge::LuaRef> initFuncs;
             std::vector<luabridge::LuaRef> updateFuncs;
+
+            std::unique_ptr<Rendering::Renderer> m_renderManGlob;
         public:
             ScriptManager();
-            ScriptManager(std::string p_scriptPath);
+            ScriptManager(std::string p_scriptPath, Rendering::Renderer* renderer);
 
             void loadScriptForObject(Engine::GameObject* object, std::string path);
 
+            void initScripts();
+
             // Expose GameObject features to Lua
-            void exposeGameObjects();
+            void exposeGame();
 
             // Expose Scene features to Lua
             void exposeScene();

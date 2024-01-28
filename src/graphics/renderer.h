@@ -30,6 +30,8 @@ namespace Rendering{
             // Game Instance
             Game::Nunticle* game;
         public:
+            float mouseX, mouseY;
+
             Renderer(std::string title, int width, int height, Game::Nunticle* game);
 
             // Update the render view based on the current scene
