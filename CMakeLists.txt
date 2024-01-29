@@ -33,6 +33,7 @@ add_executable(nunticle
     src/graphics/renderer.cpp
     # objects
     src/gameObjects/boat.cpp
+    src/gameObjects/map.cpp
     # main
     src/main.cpp
 )
