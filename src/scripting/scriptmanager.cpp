@@ -83,7 +83,10 @@ void Scripting::ScriptManager::exposeGame(){
         .addConstructor<void(*) (std::string, int, int, Game::Nunticle*)>()
         .addProperty("mouseX", &Rendering::Renderer::mouseX)
         .addProperty("mouseY", &Rendering::Renderer::mouseY)
+        .addProperty("mouseDown", &Rendering::Renderer::mouseDown)
+        .addFunction("moveView", &Rendering::Renderer::moveView)
+        .addFunction("getWindowSize", &Rendering::Renderer::getWindowSize)
         .endClass();
-    
+
     luabridge::setGlobal(m_luaState, m_renderManGlob.get(), "Graphics");
 }

@@ -18,24 +18,26 @@ Rendering::Sprite* Engine::GameObject::getSprite(){
 }
 
 void Engine::GameObject::updateTransform(){
-    // Set position based on Transform
-    this->sprite->getSprite()->setPosition(
-        sf::Vector2f(
-            this->transform.position.x,
-            this->transform.position.y
-        )
-    );
-    // Set angle based on Transform 
-    this->sprite->getSprite()->setRotation(
-        this->getRotation()
-    );
-    // Set scale
-    this->sprite->getSprite()->setScale(
-        sf::Vector2f(
-            this->transform.scale.x,
-            this->transform.scale.y
-        )
-    );
+    if(drawable){
+        // Set position based on Transform
+        this->sprite->getSprite()->setPosition(
+            sf::Vector2f(
+                this->transform.position.x,
+                this->transform.position.y
+            )
+        );
+        // Set angle based on Transform 
+        this->sprite->getSprite()->setRotation(
+            this->getRotation()
+        );
+        // Set scale
+        this->sprite->getSprite()->setScale(
+            sf::Vector2f(
+                this->transform.scale.x,
+                this->transform.scale.y
+            )
+        );
+    }
 }
 
 void Engine::GameObject::updateScript(){

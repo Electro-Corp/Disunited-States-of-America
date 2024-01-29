@@ -4,6 +4,7 @@
 
 Rendering::Renderer::Renderer(std::string title, int width, int height, Game::Nunticle* game){
     window = new sf::RenderWindow(sf::VideoMode(width, height), title);
+    this->currentView = window->getDefaultView();
     this->game = game;
 }
 
@@ -15,17 +16,27 @@ void Rendering::Renderer::update(Engine::Scene scene){
         while (window->pollEvent(event)) {
             if (event.type == sf::Event::Closed)
                 window->close();
+            else if (event.type == sf::Event::Resized) {
+                currentView.setSize({
+                        static_cast<float>(event.size.width),
+                        static_cast<float>(event.size.height)
+                });
+            }
         }
 
         this->mouseX = sf::Mouse::getPosition(*window).x;
         this->mouseY = sf::Mouse::getPosition(*window).y;
+        this->mouseDown = sf::Mouse::isButtonPressed(sf::Mouse::Left);
+
+        window->setView(currentView);
 
         // Clear Display
         window->clear();
         // Draw
         for (Engine::GameObject* &gameObj : scene.getObjs()){
             gameObj->update();
-            window->draw(*(gameObj->getSprite()->getSprite()));
+            if(gameObj->drawable)
+                window->draw(*(gameObj->getSprite()->getSprite()));
         }
         // Display
         window->display();
@@ -35,7 +46,13 @@ void Rendering::Renderer::update(Engine::Scene scene){
     }
 }
 
+void Rendering::Renderer::moveView(float x, float y){
+    currentView.move(x, y);
+}
 
+Transform::Vector2 Rendering::Renderer::getWindowSize(){
+    return Transform::Vector2(window->getSize().x, window->getSize().y);
+}
 
 Rendering::Renderer::~Renderer(){
     std::cout << "Nunticle Renderer exiting\n";

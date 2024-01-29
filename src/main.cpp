@@ -12,8 +12,11 @@ int main(int argv, char** args){
 	Engine::Scene scene("Test");
 
 	Game::Boat* boat = new Game::Boat("../assets/textures/testing/boat.png");
+	Engine::GameObject* camera = new Engine::GameObject();
 	game->loadScript(boat, "../assets/scripts/testScript.lua");
+	game->loadScript(camera, "../assets/scripts/engine/camera.lua");
 	scene.addObject(boat);
+	scene.addObject(camera);
 	// Create renderer	
 
 	game->initScripts();
