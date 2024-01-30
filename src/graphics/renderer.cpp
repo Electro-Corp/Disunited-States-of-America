@@ -22,12 +22,13 @@ void Rendering::Renderer::update(Engine::Scene scene){
                         static_cast<float>(event.size.height)
                 });
             } else if (event.type == sf::Event::MouseWheelMoved){
-                mouseDelta = event.mouseWheelScroll.delta;
+                mouseDelta = event.mouseWheel.delta;
             }
         }
 
         this->mouseX = sf::Mouse::getPosition(*window).x;
         this->mouseY = sf::Mouse::getPosition(*window).y;
+      
         this->mouseDown = sf::Mouse::isButtonPressed(sf::Mouse::Left);
         
 
