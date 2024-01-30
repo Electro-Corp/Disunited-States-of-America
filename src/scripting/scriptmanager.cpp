@@ -84,8 +84,10 @@ void Scripting::ScriptManager::exposeGame(){
         .addProperty("mouseX", &Rendering::Renderer::mouseX)
         .addProperty("mouseY", &Rendering::Renderer::mouseY)
         .addProperty("mouseDown", &Rendering::Renderer::mouseDown)
+        .addProperty("mouseDelta", &Rendering::Renderer::mouseDelta)
         .addFunction("moveView", &Rendering::Renderer::moveView)
         .addFunction("getWindowSize", &Rendering::Renderer::getWindowSize)
+        .addFunction("zoomView", &Rendering::Renderer::zoomView)
         .endClass();
 
     luabridge::setGlobal(m_luaState, m_renderManGlob.get(), "Graphics");

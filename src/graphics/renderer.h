@@ -28,10 +28,11 @@ namespace Rendering{
             sf::RenderWindow* window;
             sf::View currentView;
 
+
             // Game Instance
             Game::Nunticle* game;
         public:
-            float mouseX, mouseY;
+            float mouseX, mouseY, mouseDelta;
             bool mouseDown;
             
 
@@ -41,6 +42,8 @@ namespace Rendering{
             void update(Engine::Scene scene);
 
             void moveView(float x, float y);
+
+            void zoomView(float delta);
 
             Transform::Vector2 getWindowSize();
 

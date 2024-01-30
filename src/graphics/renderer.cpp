@@ -21,12 +21,15 @@ void Rendering::Renderer::update(Engine::Scene scene){
                         static_cast<float>(event.size.width),
                         static_cast<float>(event.size.height)
                 });
+            } else if (event.type == sf::Event::MouseWheelMoved){
+                mouseDelta = event.mouseWheelScroll.delta;
             }
         }
 
         this->mouseX = sf::Mouse::getPosition(*window).x;
         this->mouseY = sf::Mouse::getPosition(*window).y;
         this->mouseDown = sf::Mouse::isButtonPressed(sf::Mouse::Left);
+        
 
         window->setView(currentView);
 
@@ -48,6 +51,11 @@ void Rendering::Renderer::update(Engine::Scene scene){
 
 void Rendering::Renderer::moveView(float x, float y){
     currentView.move(x, y);
+}
+
+void Rendering::Renderer::zoomView(float delta){
+    currentView.zoom(delta);
+    this->mouseDelta = 0.0f;
 }
 
 Transform::Vector2 Rendering::Renderer::getWindowSize(){
