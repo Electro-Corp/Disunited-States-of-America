@@ -17,7 +17,7 @@ prevY = 0
 drag = false
 
 defaultZoomDelta = 0.11
-
+zoom = 1
 
 -- Update
 function update(gameObj)
@@ -25,9 +25,10 @@ function update(gameObj)
     targetY = Graphics.mouseY
     windowX = Graphics:getWindowSize().x
     windowY = Graphics:getWindowSize().y
+    zoom = math.abs(zoom)
     if Graphics.mouseDown == true then
         if drag == true then
-            Graphics:moveView((prevX - targetX), (prevY - targetY))
+            Graphics:moveView((prevX - targetX) * zoom, (prevY - targetY) * zoom)
         else
             drag = true
         end
@@ -41,8 +42,10 @@ function update(gameObj)
 
     if Graphics.mouseDelta > 0 then
         Graphics:zoomView(1 - defaultZoomDelta)
+        zoom = zoom - defaultZoomDelta
     end
     if Graphics.mouseDelta < 0 then
         Graphics:zoomView(1 + defaultZoomDelta)
+        zoom = zoom + defaultZoomDelta
     end
 end
