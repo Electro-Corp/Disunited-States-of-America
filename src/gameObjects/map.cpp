@@ -2,9 +2,8 @@
 */
 #include <gameObjects/map.h>
 
-Game::Map::Map(std::string texLoc) : Engine::GameObject(){
-    this->sprite = new Rendering::Sprite(texLoc);
-    this->drawable = true;
+Game::Map::Map(std::string texLoc) : Engine::GameObject(texLoc){
+
 }
 
 void Game::Map::update(){

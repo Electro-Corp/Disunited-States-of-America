@@ -6,6 +6,7 @@ A real time stratagy game about naval combat. <br>
 * SFML
 * Lua 5.1
 * LuaBridge
+* cmake
 
 ## Build
 To build, create a empty build directory:
@@ -22,3 +23,11 @@ Then, compile and run!
 make
 ./nunticle
 ```
+
+
+
+## Ideas
+### Views
+* Visible 
+* Radar
+* Sonar

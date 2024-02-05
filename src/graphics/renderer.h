@@ -45,6 +45,8 @@ namespace Rendering{
 
             void zoomView(float delta);
 
+            void rotateView(float delta);
+
             Transform::Vector2 getWindowSize();
 
             ~Renderer();

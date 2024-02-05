@@ -3,10 +3,10 @@
 #include <game.h>
 
 Game::Nunticle::Nunticle(){
-    this->renderer = new Rendering::Renderer(std::string("Nunticle"), 800, 600, this);
+    this->renderer = new Rendering::Renderer(std::string("Nunticle: Naval Warfare"), 800, 600, this);
     scriptMan = new Scripting::ScriptManager("../assets/scripts", renderer);
 
-    std::cout << "NUNTICLE GAME ENGINE\nit just works!\n";
+    std::cout << "NUNTICLE\n";
 }
 
 /**

@@ -34,7 +34,7 @@ void Rendering::Renderer::update(Engine::Scene scene){
 
         window->setView(currentView);
 
-        // Clear Display
+        // Clear Display    
         window->clear();
         // Draw
         for (Engine::GameObject* &gameObj : scene.getObjs()){
@@ -59,6 +59,9 @@ void Rendering::Renderer::zoomView(float delta){
     this->mouseDelta = 0.0f;
 }
 
+void Rendering::Renderer::rotateView(float delta){
+    currentView.rotate(delta);
+}
 Transform::Vector2 Rendering::Renderer::getWindowSize(){
     return Transform::Vector2(window->getSize().x, window->getSize().y);
 }

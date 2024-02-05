@@ -27,6 +27,7 @@ namespace Engine {
 
             GameObject();
             GameObject(Transform::Transform transform);
+            GameObject(std::string texLoc);
 
             // Get position
             Transform::Vector2 getPos();

@@ -11,7 +11,7 @@ int main(int argv, char** args){
 	Game::Nunticle* game = new Game::Nunticle();
 
 	Engine::Scene scene("Test");
-
+	
 	Game::Boat* boat = new Game::Boat("../assets/textures/testing/boat.png");
 	Engine::GameObject* camera = new Engine::GameObject();
 	Game::Map* map = new Game::Map("../assets/textures/testing/earth8.jpg");
@@ -21,14 +21,13 @@ int main(int argv, char** args){
 	scene.addObject(map);
 	scene.addObject(boat);
 	scene.addObject(camera);
-	// Create renderer	
+
 
 	game->initScripts();
 	
-	while(1){
 
+	while(1){
 		game->tick(scene);
-		
 	}
 	return 0;
 }

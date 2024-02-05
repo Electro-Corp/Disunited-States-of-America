@@ -88,6 +88,7 @@ void Scripting::ScriptManager::exposeGame(){
         .addFunction("moveView", &Rendering::Renderer::moveView)
         .addFunction("getWindowSize", &Rendering::Renderer::getWindowSize)
         .addFunction("zoomView", &Rendering::Renderer::zoomView)
+        .addFunction("rotateView", &Rendering::Renderer::rotateView)
         .endClass();
 
     luabridge::setGlobal(m_luaState, m_renderManGlob.get(), "Graphics");

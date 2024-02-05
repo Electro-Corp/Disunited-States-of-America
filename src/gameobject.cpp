@@ -8,6 +8,10 @@ Engine::GameObject::GameObject(){
 Engine::GameObject::GameObject(Transform::Transform transform){
     this->transform = transform;
 }
+Engine::GameObject::GameObject(std::string texLoc){
+    this->sprite = new Rendering::Sprite(texLoc);
+    this->drawable = true;
+}
 
 Transform::Vector2 Engine::GameObject::getPos(){
     return transform.position;
