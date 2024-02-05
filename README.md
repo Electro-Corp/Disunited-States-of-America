@@ -1,5 +1,7 @@
-# Nunticle
-A real time stratagy game about naval combat. <br>
+# Disunited States of America
+A real time stratagy game about the Union. <br>
+#### Explores the question that absolutely no one is asking: 
+What if every state seceded from the Union at the same time? Just for funzises? <br>
 
 ## Pre-Reqs
 * a modern-ish c++ compiler that supports "#pramga"
