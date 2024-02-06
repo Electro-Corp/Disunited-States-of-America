@@ -40,6 +40,8 @@ namespace Engine {
             void updateScript();
             void updateTransform();
 
+            virtual void draw(sf::RenderWindow* window);
+
             // They derive!
             void update(); 
     };

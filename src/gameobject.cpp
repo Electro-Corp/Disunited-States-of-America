@@ -44,6 +44,12 @@ void Engine::GameObject::updateTransform(){
     }
 }
 
+void Engine::GameObject::draw(sf::RenderWindow* window){
+    if(drawable){
+        window->draw(*(this->getSprite()->getSprite()));
+    }
+}
+
 void Engine::GameObject::updateScript(){
     if(this->script){
         this->script->update();

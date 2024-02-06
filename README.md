@@ -8,6 +8,7 @@ What if every state seceded from the Union at the same time? Just for funzises? 
 * SFML
 * Lua 5.1
 * LuaBridge
+* jsoncpp
 * cmake
 
 ## Build

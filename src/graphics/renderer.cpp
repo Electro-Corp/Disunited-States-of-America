@@ -37,10 +37,11 @@ void Rendering::Renderer::update(Engine::Scene scene){
         // Clear Display    
         window->clear();
         // Draw
-        for (Engine::GameObject* &gameObj : scene.getObjs()){
+        for (Engine::GameObject* gameObj : scene.getObjs()){
             gameObj->update();
-            if(gameObj->drawable)
-                window->draw(*(gameObj->getSprite()->getSprite()));
+            //if(gameObj->drawable)
+            gameObj->draw(window);
+                //window->draw(*(gameObj->getSprite()->getSprite()));
         }
         // Display
         window->display();

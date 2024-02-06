@@ -3,6 +3,7 @@ import geojson
 import json
 import sys
 import os, shutil
+import random
 
 folder = 'counties'
 for filename in os.listdir(folder):
@@ -29,18 +30,39 @@ file = open(filename, "r")
 geo = geojson.load(file)
 length = len(geo["features"])
 done = 0
+empty = 0
+count = 0
 for feature in geo["features"]:
     if feature["geometry"] is not None:
-        conStr = feature["properties"]["NAME"] + ".mosaicCounty"
+        rando = random.randrange(0, 300)
+        conStr = feature["properties"]["NAME"] + str(done) +".mosaicCounty"
         file = open(f"counties/{conStr}", "w")
         #print(f"Generate {conStr}", end="\r", flush=True)
-        print(f"Percent Complete: {int((done / length) * 100)}", end="\r", flush=True)
+        print(f"Percent Complete: {int((done / length) * 100)} | Funny = {count}", end="\r", flush=True)
 
-        pointData = feature["geometry"]["coordinates"]
+        pointData = feature["geometry"]["coordinates"]  
+        
+        points = []
+
+        while True:
+            if type(pointData[0][0]) is list:
+                count += 1
+                pointData = pointData[0]
+            else:
+                break
+
         county = {
             "NAME" : feature["properties"]["NAME"],
-            "POINTS" : pointData
+            "POINTS" : pointData,
+            "ID" : done
         }
 
         file.writelines(str(json.dumps(county)))
+    else:   
+        empty += 1
+        print(feature["properties"]["NAME"] + " is empty!")
+        print("")
     done += 1
+print(f"Percent Complete: {int((done / length) * 100)}")
+print(f"Total: {done}")
+print("\nEmpty: " + str(empty))
