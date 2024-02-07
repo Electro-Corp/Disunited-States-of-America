@@ -23,7 +23,7 @@ Game::County::County(std::string filename) : Engine::GameObject(){
             county[i].color = sf::Color(r,g,b);
 
             lines[i].position = sf::Vector2f(val["POINTS"][i][0].asFloat() * mulsize, val["POINTS"][i][1].asFloat() * -mulsize);
-            lines[i].color = sf::Color::Black;
+            lines[i].color = sf::Color(g,b,r);
         }
         error = false;
     }catch(Json::LogicError& ex){
