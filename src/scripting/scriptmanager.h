@@ -1,8 +1,7 @@
 /*
     Script manager
 */
-#ifndef SCRIPTMAN_H
-#define SCRIPTMAN_H
+#pragma once
 #include <vector>
 #include <iostream>
 #include <filesystem>
@@ -20,8 +19,10 @@ extern "C"
 #include <LuaBridge/LuaBridge.h>
 
 // Include things that need to be exposed to Lua
+//#include <gameObjects/county.h>
 #include <scene.h>
-#include <gameobject.h>
+#include <graphics/renderer.h>
+
 namespace Engine{
     class GameObject;
 }
@@ -69,5 +70,3 @@ namespace Scripting{
             void exposeScene();
     };
 };
-
-#endif

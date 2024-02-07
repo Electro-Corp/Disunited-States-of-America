@@ -5,6 +5,10 @@ import sys
 import os, shutil
 import random
 
+print("==================================")
+print("GeoJSON to mosiacCounty converter")
+print("==================================")
+
 folder = 'counties'
 for filename in os.listdir(folder):
     file_path = os.path.join(folder, filename)
@@ -38,7 +42,7 @@ for feature in geo["features"]:
         conStr = feature["properties"]["NAME"] + str(done) +".mosaicCounty"
         file = open(f"counties/{conStr}", "w")
         #print(f"Generate {conStr}", end="\r", flush=True)
-        print(f"Percent Complete: {int((done / length) * 100)} | Funny = {count}", end="\r", flush=True)
+        print(f"Percent Complete: {int((done / length) * 100)} | Rewrote = {count} | Errors: {empty} | Current: {conStr}", end="\r", flush=True)
 
         pointData = feature["geometry"]["coordinates"]  
         

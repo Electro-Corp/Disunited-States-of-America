@@ -78,6 +78,13 @@ void Scripting::ScriptManager::exposeGame(){
         .addProperty("transform", &Engine::GameObject::transform)
         .endClass();
 
+    /*luabridge::getGlobalNamespace(m_luaState)
+        .beginClass<Game::County>("County")
+        .addConstructor<void(*) (std::string)>()
+        .addFunction("highlightColor", &Game::County::highlightColor)
+        .addFunction("defaultColor", &Game::County::defaultColor)
+        .endClass();*/
+
     luabridge::getGlobalNamespace(m_luaState)
         .beginClass<Rendering::Renderer>("Renderer")
         .addConstructor<void(*) (std::string, int, int, Game::Nunticle*)>()

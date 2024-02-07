@@ -27,6 +27,7 @@ namespace Rendering{
         private:
             sf::RenderWindow* window;
             sf::View currentView;
+            sf::Clock clock;
 
 
             // Game Instance
@@ -48,6 +49,8 @@ namespace Rendering{
             void rotateView(float delta);
 
             Transform::Vector2 getWindowSize();
+
+            float getDeltaTime();
 
             ~Renderer();
     };

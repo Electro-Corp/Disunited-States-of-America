@@ -51,6 +51,11 @@ void Rendering::Renderer::update(Engine::Scene scene){
     }
 }
 
+float Rendering::Renderer::getDeltaTime(){
+    float time = clock.getElapsedTime().asSeconds();
+    return time;
+}
+
 void Rendering::Renderer::moveView(float x, float y){
     currentView.move(x, y);
 }

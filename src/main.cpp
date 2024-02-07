@@ -29,12 +29,16 @@ int main(int argv, char** args){
 	
 	//scene.addObject(boat);
 	
+	float fileTot = std::distance(fs::directory_iterator("../assets/map_data/counties"), fs::directory_iterator{});
+	float count = 0;
 	// load all of the US
 	for (const auto & entry : fs::directory_iterator("../assets/map_data/counties")){
+		std::cout << "Percent Loaded: " << (int)((count / fileTot) * 100) << "\r";
 		//std::cout << "Loading " << entry.path().string() << "\n";
     	Game::County* county = new Game::County(entry.path().string());
 		game->loadScript(county, "../assets/scripts/gameObjs/county.lua");
 		scene.addObject(county);
+		count++;
     }
 
 	scene.addObject(camera);

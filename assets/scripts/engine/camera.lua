@@ -28,7 +28,7 @@ function update(gameObj)
     zoom = math.abs(zoom)
     if Graphics.mouseDown == true then
         if drag == true then
-            Graphics:moveView((prevX - targetX) * zoom, (prevY - targetY) * zoom)
+            Graphics:moveView((prevX - targetX) * (zoom), (prevY - targetY) * (zoom))
         else 
             drag = true
         end
@@ -43,11 +43,9 @@ function update(gameObj)
     if Graphics.mouseDelta > 0 then
         Graphics:zoomView(1 - defaultZoomDelta)
         zoom = zoom - (defaultZoomDelta)
-        print(zoom)
     end
     if Graphics.mouseDelta < 0 then
         Graphics:zoomView(1 + defaultZoomDelta)
         zoom = zoom + (defaultZoomDelta)
-        print(zoom)
     end
 end
