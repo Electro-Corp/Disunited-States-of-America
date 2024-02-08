@@ -16,6 +16,7 @@ int main(int argv, char** args){
 	Game::Nunticle* game = new Game::Nunticle();
 
 	Engine::Scene scene("Test");
+	Engine::Scene loading("Loading");
 	
 	Game::Boat* boat = new Game::Boat("../assets/textures/testing/boat.png");
 	Engine::GameObject* camera = new Engine::GameObject();
@@ -33,13 +34,18 @@ int main(int argv, char** args){
 	float count = 0;
 	// load all of the US
 	for (const auto & entry : fs::directory_iterator("../assets/map_data/counties")){
-		std::cout << "Percent Loaded: " << (int)((count / fileTot) * 100) << "\r";
+		int load = (int)((count / fileTot) * 100);
+		//std::cout << "Percent Loaded: " << load << "\r";
+		game->changeWindowTitle(std::string{"Disunited States of America | Loading.. " + std::to_string(load) + "% ("+ entry.path().string() +")"});
 		//std::cout << "Loading " << entry.path().string() << "\n";
     	Game::County* county = new Game::County(entry.path().string());
 		game->loadScript(county, "../assets/scripts/gameObjs/county.lua");
 		scene.addObject(county);
 		count++;
+		game->tick(loading);
     }
+
+	game->changeWindowTitle("Disunited States of America");
 
 	scene.addObject(camera);
 

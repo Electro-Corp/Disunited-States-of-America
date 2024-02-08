@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-project(DUSA)
+project(DSA)
 
 # Compiler settings
 set(CMAKE_CXX_STANDARD 20)
@@ -20,7 +20,7 @@ include_directories(/usr/local/include ${LUA_INCLUDE_DIR})
 include_directories(${JSONCPP_INCLUDE_DIR})
 
 # Compiler executable
-add_executable(DUSA
+add_executable(DSA
     # Sprite
     src/graphics/sprite.h
     src/graphics/sprite.cpp
@@ -46,8 +46,8 @@ add_executable(DUSA
 
 
 # Flags
-target_compile_options(DUSA PUBLIC -fpermissive -g)
+target_compile_options(DSA PUBLIC -fpermissive -g)
 
-target_link_libraries(DUSA ${SFML_LIBRARIES} ${SFML_DEPENDENCIES} sfml-graphics)
-target_link_libraries(DUSA ${LUA_LIBRARIES} ${LUA_DEPENDENCIES})
-TARGET_LINK_LIBRARIES(DUSA jsoncpp_lib)
+target_link_libraries(DSA ${SFML_LIBRARIES} ${SFML_DEPENDENCIES} sfml-graphics)
+target_link_libraries(DSA ${LUA_LIBRARIES} ${LUA_DEPENDENCIES})
+TARGET_LINK_LIBRARIES(DSA jsoncpp_lib)

@@ -72,6 +72,10 @@ Transform::Vector2 Rendering::Renderer::getWindowSize(){
     return Transform::Vector2(window->getSize().x, window->getSize().y);
 }
 
+void Rendering::Renderer::changeTitle(std::string title){
+    window->setTitle(title);
+}
+
 Rendering::Renderer::~Renderer(){
     std::cout << "Nunticle Renderer exiting\n";
 }

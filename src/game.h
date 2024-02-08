@@ -30,6 +30,8 @@ namespace Game{
 
         void tick(Engine::Scene);
 
+        void changeWindowTitle(std::string);
+
         void initScripts();
 
         void endGame();

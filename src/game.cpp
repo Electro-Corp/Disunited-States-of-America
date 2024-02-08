@@ -24,6 +24,10 @@ void Game::Nunticle::tick(Engine::Scene scene){
     this->renderer->update(scene);
 }
 
+void Game::Nunticle::changeWindowTitle(std::string title){
+    this->renderer->changeTitle(title);
+}
+
 void Game::Nunticle::endGame(){
     // Confirm
     // Exit

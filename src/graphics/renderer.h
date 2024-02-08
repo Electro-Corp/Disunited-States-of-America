@@ -48,6 +48,8 @@ namespace Rendering{
 
             void rotateView(float delta);
 
+            void changeTitle(std::string);
+
             Transform::Vector2 getWindowSize();
 
             float getDeltaTime();
