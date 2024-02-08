@@ -43,6 +43,6 @@ namespace Engine {
             virtual void draw(sf::RenderWindow* window);
 
             // They derive!
-            void update(); 
+            virtual void update(); 
     };
 }

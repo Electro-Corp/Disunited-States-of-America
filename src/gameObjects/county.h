@@ -26,6 +26,5 @@ namespace Game {
 
         void defaultColor();
 
-        void update();
     };
 }
