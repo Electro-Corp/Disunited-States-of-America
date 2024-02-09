@@ -48,9 +48,12 @@ int main(int argv, char** args){
 	
 	float loadScreens = std::distance(fs::directory_iterator("../assets/textures/loading"), fs::directory_iterator{});
 
-	std::uniform_int_distribution<int> loadDistr(0, loadScreens - 1);
+	std::uniform_int_distribution<int> loadDistr(1, loadScreens);
 
-	int fileChoose = loadDistr(generator), g = 0;
+	int fileChoose = loadDistr(generator), g = 1;
+	for(int i = 0; i < 50; i++) fileChoose = loadDistr(generator);
+
+	std::cout << loadScreens << " | " << fileChoose << "\n";
 
 	Game::Map* loadBG;
 
