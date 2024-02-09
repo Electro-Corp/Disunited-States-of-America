@@ -24,13 +24,10 @@ camke ../
 Then, compile and run!
 ```
 make
-./nunticle
+./DSA
 ```
 
-
-
-## Ideas
-### Views
-* Visible 
-* Radar
-* Sonar
+## ToDO:
+* make scene system better
+* make scripts tied to scenes
+* music/audio manager

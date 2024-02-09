@@ -55,6 +55,23 @@ for feature in geo["features"]:
             else:
                 break
 
+        """ 
+        xS = []
+        yS = []
+        for point in pointData:
+            xS.append(point[0])
+            yS.append(point[1])
+        
+        maxX = max(xS)
+        minX = min(xS)
+        maxY = max(yS)
+        minY = min(yS)
+
+        for point in pointData:
+            point[0] = (point[0]- minX) / (maxX - minX)
+            point[1] = (point[1]- minY) / (maxY - minY)
+        """
+
         county = {
             "NAME" : feature["properties"]["NAME"],
             "POINTS" : pointData,

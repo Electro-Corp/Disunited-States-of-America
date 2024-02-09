@@ -19,7 +19,7 @@ Game::County::County(std::string filename) : Engine::GameObject(){
     try{
         // Load county data
         for(int i = 0; i < val["POINTS"].size(); i++){
-            county[i].position = sf::Vector2f((val["POINTS"][i][0].asFloat() * mulsize) + 80, (val["POINTS"][i][1].asFloat() * -mulsize) + 1000);
+            county[i].position = sf::Vector2f((val["POINTS"][i][0].asFloat() * mulsize) + 1000, (val["POINTS"][i][1].asFloat() * -mulsize) + 400);
             county[i].color = sf::Color(r,g,b);
 
             lines[i].position = sf::Vector2f(val["POINTS"][i][0].asFloat() * mulsize, val["POINTS"][i][1].asFloat() * -mulsize);

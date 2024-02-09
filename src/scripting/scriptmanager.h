@@ -30,7 +30,7 @@ namespace Rendering{
     class Renderer;
 }
 namespace Game{
-    class Nunticle;
+    class DSA;
 }
 namespace Scripting{
     class Script{

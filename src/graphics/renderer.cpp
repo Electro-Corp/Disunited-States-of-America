@@ -2,7 +2,7 @@
 */
 #include <graphics/renderer.h>
 
-Rendering::Renderer::Renderer(std::string title, int width, int height, Game::Nunticle* game){
+Rendering::Renderer::Renderer(std::string title, int width, int height, Game::DSA* game){
     window = new sf::RenderWindow(sf::VideoMode(width, height), title);
     this->currentView = window->getDefaultView();
     this->game = game;
@@ -58,6 +58,10 @@ float Rendering::Renderer::getDeltaTime(){
 
 void Rendering::Renderer::moveView(float x, float y){
     currentView.move(x, y);
+}
+
+void Rendering::Renderer::setView(float x, float y){
+    currentView.setCenter(x, y);
 }
 
 void Rendering::Renderer::zoomView(float delta){

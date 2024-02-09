@@ -19,13 +19,24 @@ void UI::Text::setSize(int size){
 }
 
 void UI::Text::update(){
+    // Update text transformation
     this->text.setPosition(
         sf::Vector2f(
             this->transform.position.x,
             this->transform.position.y
         )
     );
+    this->text.setScale(
+        sf::Vector2f(
+            this->transform.scale.x,
+            this->transform.scale.y
+        )
+    );
+    this->text.setRotation(
+        this->transform.angle
+    );
 
+    // run scripts
     updateScript();
 }
 

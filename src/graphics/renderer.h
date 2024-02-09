@@ -11,7 +11,7 @@ namespace Engine{
     class Scene;
 }
 namespace Game{
-    class Nunticle;
+    class DSA;
 }
 namespace Rendering{
 
@@ -31,18 +31,20 @@ namespace Rendering{
 
 
             // Game Instance
-            Game::Nunticle* game;
+            Game::DSA* game;
         public:
             float mouseX, mouseY, mouseDelta;
             bool mouseDown;
             
 
-            Renderer(std::string title, int width, int height, Game::Nunticle* game);
+            Renderer(std::string title, int width, int height, Game::DSA* game);
 
             // Update the render view based on the current scene
             void update(Engine::Scene scene);
 
             void moveView(float x, float y);
+            
+            void setView(float x, float y);
 
             void zoomView(float delta);
 

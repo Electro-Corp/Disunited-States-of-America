@@ -48,7 +48,7 @@ add_executable(DSA
 
 
 # Flags
-target_compile_options(DSA PUBLIC -fpermissive -g)
+target_compile_options(DSA PUBLIC -fpermissive -g -O2)
 
 target_link_libraries(DSA ${SFML_LIBRARIES} ${SFML_DEPENDENCIES} sfml-graphics sfml-audio)
 target_link_libraries(DSA ${LUA_LIBRARIES} ${LUA_DEPENDENCIES})

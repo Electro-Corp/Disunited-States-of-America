@@ -19,12 +19,12 @@ namespace Rendering{
 }
 namespace Game{
     // Nunticle
-    class Nunticle{
+    class DSA{
         private:
         Scripting::ScriptManager* scriptMan;
         Rendering::Renderer* renderer;
         public:
-        Nunticle();
+        DSA();
 
         void loadScript(Engine::GameObject* object, std::string path);
 
@@ -33,6 +33,8 @@ namespace Game{
         void changeWindowTitle(std::string);
 
         void initScripts();
+
+        float getTime();
 
         void endGame();
     };

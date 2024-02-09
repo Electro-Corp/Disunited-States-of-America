@@ -22,10 +22,13 @@
 namespace fs = std::filesystem;
 
 int main(int argv, char** args){
+	// make a music/audio manager in the future
 	sf::Music music;
 	if (!music.openFromFile("../assets/music/load.ogg"))
 		return -1;
+	music.setVolume(0);
 	music.play();
+
 
 	// Load a random quote
 	JsonReader tmp("../assets/quotes.json");
@@ -36,16 +39,30 @@ int main(int argv, char** args){
 
 	std::string quote = val["Quotes"][distr(generator)].asString();
 
-	std::cout << quote;
 
-
-
-	Game::Nunticle* game = new Game::Nunticle();
+	Game::DSA* game = new Game::DSA();
 
 	Engine::Scene scene("Test");
 	Engine::Scene loading("Loading");
 
-	Game::Map* loadBG = new Game::Map("../assets/textures/loading/load1.png");
+	
+	float loadScreens = std::distance(fs::directory_iterator("../assets/textures/loading"), fs::directory_iterator{});
+
+	std::uniform_int_distribution<int> loadDistr(0, loadScreens - 1);
+
+	int fileChoose = loadDistr(generator), g = 0;
+
+	Game::Map* loadBG;
+
+	for (const auto & entry : fs::directory_iterator("../assets/textures/loading")){
+		if(g == fileChoose){
+			loadBG = new Game::Map(entry.path().string());
+			break;
+		}
+		g++;
+	}
+
+	 
 	game->loadScript(loadBG, "../assets/scripts/gameObjs/background.lua");
 	loading.addObject(loadBG);
 
@@ -76,19 +93,26 @@ int main(int argv, char** args){
 	float count = 0;
 	// load all of the US
 	for (const auto & entry : fs::directory_iterator("../assets/map_data/counties")){
-		int load = (int)((count / fileTot) * 100);
+		if(music.getVolume() < 100) music.setVolume(music.getVolume() + 0.1);
+		// Show quotes
+		int load = ((count / fileTot) * 100);
 		if(load % 20 == 0){
 			quote = val["Quotes"][distr(generator)].asString();
 			quoteText->setText(quote);
 		}
 
-		
-		//std::cout << "Percent Loaded: " << load << "\r";
+		// Let the user know whats up
 		game->changeWindowTitle(std::string{"Disunited States of America | Loading.. " + std::to_string(load) + "% ("+ entry.path().string() +")"});
 		loadingText->setText(std::string{"Loading.. " + std::to_string(load) + "%"});
-		//std::cout << "Loading " << entry.path().string() << "\n";
-    	Game::County* county = new Game::County(entry.path().string());
+    	
+		// Load county
+		Game::County* county = new Game::County(entry.path().string());
 		game->loadScript(county, "../assets/scripts/gameObjs/county.lua");
+
+		if(load == 50){
+			camera->transform.position = county->transform.position;
+		}
+
 		scene.addObject(county);
 		count++;
 		game->tick(loading);
@@ -96,11 +120,28 @@ int main(int argv, char** args){
 
 	game->changeWindowTitle("Disunited States of America");
 
+	loadingText->setSize(0);
+	quoteText->setSize(0);
+
+
+	scene.addObject(loadBG);
+
 	scene.addObject(camera);
 
+	camera->updateScript();
 
 	game->initScripts();
-	
+
+
+	float fadeSpeed = 0.1f;
+	// Fade out
+	for(float i = 255; i > 0; i -= fadeSpeed * game->getTime()){
+		loadBG->transform.position = camera->transform.position;
+		loadBG->getSprite()->getSprite()->setColor(sf::Color(255, 255, 255, i));
+		game->tick(scene);
+	}
+	loadBG->getSprite()->getSprite()->setColor(sf::Color(255, 255, 255, 0));
+		
 
 	while(1){
 		game->tick(scene);
