@@ -1,0 +1,207 @@
+Package: vcpkg-cmake-config
+Version: 2022-02-06
+Port-Version: 1
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 047201dadf887073b311fd6db1380854ad892a00672a7c1a4691cc92dc139f71
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2023-05-04
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 1e4922c762cf5621e467be1eb7659e1f3e39b2c7b5b3b02b06d22c4c0a4876ec
+Status: install ok installed
+
+Package: jsoncpp
+Version: 1.9.5
+Port-Version: 2
+Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 984ec6a6659692cd3c38cab9c497d6976fc48609183663c11fc9afddd3d0e447
+Description: jsoncpp is an implementation of a JSON reader and writer in C++. JSON (JavaScript Object Notation) is a lightweight data-interchange format that it is easy to parse and redeable for human.
+Status: purge ok not-installed
+
+Package: stb
+Version: 2023-04-11
+Port-Version: 1
+Architecture: x86-windows
+Multi-Arch: same
+Abi: f8c46eb4634b3d9d649df9891351276a656412afb41400b3698ecb6d11d8f4d8
+Description: public domain header-only libraries
+Status: purge ok not-installed
+
+Package: egl-registry
+Version: 2022-09-20
+Architecture: x86-windows
+Multi-Arch: same
+Abi: dd33c0a549d9678190ee092a6bde553090fce9251ed8e9f6a02e020b28a6ef71
+Description: the EGL API and Extension Registry
+Status: purge ok not-installed
+
+Package: opengl-registry
+Version: 2022-09-29
+Port-Version: 1
+Depends: egl-registry
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 738aa49ec50b6db5212d6254b06deb250b59f28b1d0e941fcc4c7472dc5a0471
+Description: the API and Extension registries for the OpenGL family APIs
+Status: purge ok not-installed
+
+Package: opengl
+Version: 2022-12-04
+Port-Version: 3
+Depends: opengl-registry
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 15b3926acc4b2fd2aa56273f8e7ae552938abb15f118f699cb362a6e96cd67eb
+Description: Open Graphics Library (OpenGL)[3][4][5] is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics.
+Status: purge ok not-installed
+
+Package: openal-soft
+Version: 1.23.1
+Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 3b498dd48fd5f0c891d0ce8cbb09dbc56757641888eb50a7ba7e5207b633496d
+Description: OpenAL Soft is an LGPL-licensed, cross-platform, software implementation of the OpenAL 3D audio API.
+Status: purge ok not-installed
+
+Package: libogg
+Version: 1.3.5
+Port-Version: 1
+Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x86-windows
+Multi-Arch: same
+Abi: ad699d5215b14909d73ea6e6490302d7bc75c2c6ad6783aec0ec24d84f926348
+Description: Ogg is a multimedia container format, and the native file and stream format for the Xiph.org multimedia codecs.
+Status: purge ok not-installed
+
+Package: libvorbis
+Version: 1.3.7
+Port-Version: 2
+Depends: libogg, vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 17333adfbaa20e330e5b848abd0592dba976fd3662157d0954aa4bb1e5e3eec2
+Description: Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, general-purpose compressed audio format
+Status: purge ok not-installed
+
+Package: libflac
+Version: 1.4.3
+Depends: libogg, vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 8eb26308a941433e1e421e4fc55d4407f8c09fcb0aa33c123a43f667e75b2806
+Description: Library for manipulating FLAC files
+Status: purge ok not-installed
+
+Package: zlib
+Version: 1.3.1
+Depends: vcpkg-cmake:x64-windows
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 3634c2b97267a7269990aa9376a203020c91c8b2d8da34d4066fd676307ac9a2
+Description: A compression library
+Status: purge ok not-installed
+
+Package: libpng
+Version: 1.6.40
+Port-Version: 1
+Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows, zlib
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 3a58c5d07bf4a55cd55347790c4f56014f00c13bfc32d9c2efc85dde2aa166eb
+Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files
+Status: purge ok not-installed
+
+Package: bzip2
+Version: 1.0.8
+Port-Version: 5
+Depends: vcpkg-cmake:x64-windows
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 87f95e9a3f4948892237f62b66dade7995a3ebab64adccf4964dcf37376a51d2
+Description: bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.
+Default-Features: tool
+Status: purge ok not-installed
+
+Package: bzip2
+Feature: tool
+Architecture: x86-windows
+Multi-Arch: same
+Description: Builds bzip2 executable
+Status: purge ok not-installed
+
+Package: brotli
+Version: 1.1.0
+Port-Version: 1
+Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x86-windows
+Multi-Arch: same
+Abi: eeea056e84668255aa03f239b0fbbbec2e4e237b9cd39e4d7b5061ce849afcce
+Description: a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling.
+Status: purge ok not-installed
+
+Package: freetype
+Version: 2.13.2
+Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 60d6107b805347aaaab8272a3461078f57dda7eb12a59ef570bb6215132d71ab
+Description: A library to render fonts.
+Default-Features: brotli, bzip2, png, zlib
+Status: purge ok not-installed
+
+Package: freetype
+Feature: brotli
+Depends: brotli
+Architecture: x86-windows
+Multi-Arch: same
+Description: Support decompression of WOFF2 streams
+Status: purge ok not-installed
+
+Package: freetype
+Feature: bzip2
+Depends: bzip2
+Architecture: x86-windows
+Multi-Arch: same
+Description: Support bzip2 compressed fonts.
+Status: purge ok not-installed
+
+Package: freetype
+Feature: png
+Depends: libpng
+Architecture: x86-windows
+Multi-Arch: same
+Description: Support PNG compressed OpenType embedded bitmaps.
+Status: purge ok not-installed
+
+Package: freetype
+Feature: zlib
+Depends: zlib
+Architecture: x86-windows
+Multi-Arch: same
+Description: Use zlib instead of internal library for DEFLATE
+Status: purge ok not-installed
+
+Package: sfml
+Version: 2.6.1
+Depends: freetype, libflac, libogg, libvorbis, openal-soft, opengl, stb, vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x86-windows
+Multi-Arch: same
+Abi: d70c20b95cc145ff04489804d050ea55e2467659fb732b7ede965828750b053e
+Description: Simple and fast multimedia library
+Status: purge ok not-installed
+
+Package: lua
+Version: 5.4.6
+Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x86-windows
+Multi-Arch: same
+Abi: f2a2458748b68d5e267852cb04c1c66494eaf7893a96df3457e676132c5b7135
+Description: A powerful, fast, lightweight, embeddable scripting language
+Status: purge ok not-installed
+

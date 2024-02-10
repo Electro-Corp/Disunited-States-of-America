@@ -1,0 +1,18 @@
+-- Downloading https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=cfhcable;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=pilotfiber;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=gigenet;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=versaweb;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=ayera;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=netactuate;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=phoenixnap;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=astuteinternet;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=freefr;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=netcologne;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=deac-riga;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=excellmedia;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=iweb;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=jaist;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=jztkft;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=managedway;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=nchc;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=netix;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=ufpr;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=tenet -> freetype-2.13.2.tar.xz...
+-- Extracting source C:/Users/segfault/AppData/Local/vcpkg/downloads/freetype-2.13.2.tar.xz
+-- Applying patch 0003-Fix-UWP.patch
+-- Applying patch brotli-static.patch
+-- Applying patch bzip2.patch
+-- Applying patch fix-exports.patch
+-- Using source at E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/freetype/src/freetype-2-dec0fa0f13.clean
+-- Found external ninja('1.11.0').
+-- Configuring x86-windows
+-- Building x86-windows-dbg
+-- Building x86-windows-rel
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/freetype_x86-windows/lib/pkgconfig/freetype2.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.1.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/msys2/fdbea3694fb5c0d4
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/freetype_x86-windows/debug/lib/pkgconfig/freetype2.pc
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/freetype_x86-windows/share/freetype/usage
+-- Performing post-build validation

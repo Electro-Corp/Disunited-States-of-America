@@ -1,0 +1,19 @@
+Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/libogg/x86-windows-dbg'
+
+Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v -v -j17 install
+[1/4] E:\vs2022\VC\Tools\MSVC\14.36.32532\bin\Hostx64\x86\cl.exe   -Dogg_EXPORTS -IE:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\blds\libogg\src\v1.3.5-1a4243fef9.clean\include -IE:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\blds\libogg\x86-windows-dbg\include /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\ogg.dir\src\bitwise.c.obj /FdCMakeFiles\ogg.dir\ /FS -c E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\blds\libogg\src\v1.3.5-1a4243fef9.clean\src\bitwise.c
+[2/4] E:\vs2022\VC\Tools\MSVC\14.36.32532\bin\Hostx64\x86\cl.exe   -Dogg_EXPORTS -IE:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\blds\libogg\src\v1.3.5-1a4243fef9.clean\include -IE:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\blds\libogg\x86-windows-dbg\include /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\ogg.dir\src\framing.c.obj /FdCMakeFiles\ogg.dir\ /FS -c E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\blds\libogg\src\v1.3.5-1a4243fef9.clean\src\framing.c
+[3/4] cmd.exe /C "cd . && C:\Users\segfault\AppData\Local\vcpkg\downloads\tools\cmake-3.27.1-windows\cmake-3.27.1-windows-i386\bin\cmake.exe -E vs_link_dll --intdir=CMakeFiles\ogg.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\mt.exe --manifests  -- E:\vs2022\VC\Tools\MSVC\14.36.32532\bin\Hostx64\x86\link.exe  CMakeFiles\ogg.dir\src\bitwise.c.obj CMakeFiles\ogg.dir\src\framing.c.obj  /out:ogg.dll /implib:ogg.lib /pdb:ogg.pdb /dll /version:0.8 /machine:X86 /nologo    /debug /INCREMENTAL  /DEF:E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\blds\libogg\src\v1.3.5-1a4243fef9.clean\win32\ogg.def  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  && cd ."
+[3/4] cmd.exe /C "cd /D E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\blds\libogg\x86-windows-dbg && -- Install configuration: "Debug"
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/debug/lib/ogg.lib
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/debug/bin/ogg.dll
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/debug/include/ogg/config_types.h
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/debug/include/ogg/ogg.h
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/debug/include/ogg/os_types.h
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/debug/lib/cmake/Ogg/OggTargets.cmake
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/debug/lib/cmake/Ogg/OggTargets-debug.cmake
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/debug/lib/cmake/Ogg/OggConfig.cmake
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/debug/lib/cmake/Ogg/OggConfigVersion.cmake
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/debug/lib/pkgconfig/ogg.pc
+C:\Users\segfault\AppData\Local\vcpkg\downloads\tools\cmake-3.27.1-windows\cmake-3.27.1-windows-i386\bin\cmake.exe -P cmake_install.cmake"
+

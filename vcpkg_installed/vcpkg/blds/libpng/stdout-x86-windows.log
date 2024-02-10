@@ -1,0 +1,23 @@
+-- Downloading https://github.com/glennrp/libpng/archive/v1.6.40.tar.gz -> glennrp-libpng-v1.6.40.tar.gz...
+-- Extracting source C:/Users/segfault/AppData/Local/vcpkg/downloads/glennrp-libpng-v1.6.40.tar.gz
+-- Applying patch cmake.patch
+-- Applying patch fix-export-targets.patch
+-- Applying patch libm.patch
+-- Applying patch pkgconfig.patch
+-- Applying patch fix-msa-support-for-mips.patch
+-- Using source at E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/libpng/src/v1.6.40-2d42afc4f5.clean
+-- Found external ninja('1.11.0').
+-- Configuring x86-windows
+-- Building x86-windows-dbg
+-- Building x86-windows-rel
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/share/png/vcpkg-cmake-wrapper.cmake
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/lib/pkgconfig/libpng16.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.1.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/msys2/fdbea3694fb5c0d4
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/debug/lib/pkgconfig/libpng16.pc
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/debug/lib/pkgconfig/libpng.pc
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/lib/pkgconfig/libpng.pc
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/share/libpng/usage
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/share/libpng/copyright
+-- Performing post-build validation

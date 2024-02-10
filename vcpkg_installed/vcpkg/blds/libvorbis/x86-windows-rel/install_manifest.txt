@@ -1,0 +1,16 @@
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/lib/pkgconfig/vorbis.pc
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/lib/pkgconfig/vorbisenc.pc
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/lib/pkgconfig/vorbisfile.pc
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/include/vorbis/codec.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/include/vorbis/vorbisenc.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/include/vorbis/vorbisfile.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/lib/vorbis.lib
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/bin/vorbis.dll
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/lib/vorbisenc.lib
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/bin/vorbisenc.dll
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/lib/vorbisfile.lib
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/bin/vorbisfile.dll
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/lib/cmake/Vorbis/VorbisTargets.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/lib/cmake/Vorbis/VorbisTargets-release.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/lib/cmake/Vorbis/VorbisConfig.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/lib/cmake/Vorbis/VorbisConfigVersion.cmake

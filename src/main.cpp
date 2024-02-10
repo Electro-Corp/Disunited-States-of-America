@@ -131,10 +131,12 @@ int main(int argv, char** args){
 
 	scene.addObject(camera);
 
-	camera->updateScript();
-
 	game->initScripts();
 
+	camera->updateScript();
+
+	
+	printf("trasnform udpated!\n");
 
 	float fadeSpeed = 0.1f;
 	// Fade out

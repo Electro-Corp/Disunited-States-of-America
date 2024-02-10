@@ -1,0 +1,22 @@
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/lib/OpenAL32.lib
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/bin/OpenAL32.dll
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/lib/cmake/OpenAL/OpenALTargets.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/lib/cmake/OpenAL/OpenALTargets-debug.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/include/AL/al.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/include/AL/alc.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/include/AL/alext.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/include/AL/efx-creative.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/include/AL/efx-presets.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/include/AL/efx.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/lib/pkgconfig/openal.pc
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/lib/cmake/OpenAL/OpenALConfig.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/share/openal/alsoftrc.sample
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/share/openal/hrtf/Default HRTF.mhr
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/share/openal/presets/3D7.1.ambdec
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/share/openal/presets/hex-quad.ambdec
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/share/openal/presets/hexagon.ambdec
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/share/openal/presets/itu5.1-nocenter.ambdec
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/share/openal/presets/itu5.1.ambdec
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/share/openal/presets/presets.txt
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/share/openal/presets/rectangle.ambdec
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/debug/share/openal/presets/square.ambdec

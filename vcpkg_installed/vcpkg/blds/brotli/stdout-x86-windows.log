@@ -1,0 +1,23 @@
+-- Downloading https://github.com/google/brotli/archive/v1.1.0.tar.gz -> google-brotli-v1.1.0.tar.gz...
+-- Extracting source C:/Users/segfault/AppData/Local/vcpkg/downloads/google-brotli-v1.1.0.tar.gz
+-- Applying patch install.patch
+-- Applying patch fix-arm-uwp.patch
+-- Applying patch pkgconfig.patch
+-- Applying patch emscripten.patch
+-- Using source at E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/brotli/src/v1.1.0-958bece74c.clean
+-- Found external ninja('1.11.0').
+-- Configuring x86-windows
+-- Building x86-windows-dbg
+-- Building x86-windows-rel
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/lib/pkgconfig/libbrotlicommon.pc
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/lib/pkgconfig/libbrotlidec.pc
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/lib/pkgconfig/libbrotlienc.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.1.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/msys2/fdbea3694fb5c0d4
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/debug/lib/pkgconfig/libbrotlicommon.pc
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/debug/lib/pkgconfig/libbrotlidec.pc
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/debug/lib/pkgconfig/libbrotlienc.pc
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/share/brotli/usage
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/share/brotli/copyright
+-- Performing post-build validation

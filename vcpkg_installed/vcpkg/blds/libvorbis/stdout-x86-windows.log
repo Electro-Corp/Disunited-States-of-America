@@ -1,0 +1,22 @@
+-- Downloading https://github.com/xiph/vorbis/archive/v1.3.7.tar.gz -> xiph-vorbis-v1.3.7.tar.gz...
+-- Extracting source C:/Users/segfault/AppData/Local/vcpkg/downloads/xiph-vorbis-v1.3.7.tar.gz
+-- Applying patch 0001-Dont-export-vorbisenc-functions.patch
+-- Applying patch 0002-Fixup-pkgconfig-libs.patch
+-- Applying patch 0003-def-mingw-compat.patch
+-- Using source at E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/libvorbis/src/v1.3.7-1480004d18.clean
+-- Found external ninja('1.11.0').
+-- Configuring x86-windows
+-- Building x86-windows-dbg
+-- Building x86-windows-rel
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/lib/pkgconfig/vorbis.pc
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/lib/pkgconfig/vorbisenc.pc
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/lib/pkgconfig/vorbisfile.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.1.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/msys2/fdbea3694fb5c0d4
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/debug/lib/pkgconfig/vorbis.pc
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/debug/lib/pkgconfig/vorbisenc.pc
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/debug/lib/pkgconfig/vorbisfile.pc
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/share/libvorbis/usage
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libvorbis_x86-windows/share/libvorbis/copyright
+-- Performing post-build validation

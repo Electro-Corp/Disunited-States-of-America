@@ -1,0 +1,2 @@
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/bzip2_x86-windows/debug/lib/bz2d.lib
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/bzip2_x86-windows/debug/bin/bz2d.dll

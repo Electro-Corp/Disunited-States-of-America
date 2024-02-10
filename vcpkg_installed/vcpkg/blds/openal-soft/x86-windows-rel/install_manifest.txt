@@ -1,0 +1,22 @@
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/lib/OpenAL32.lib
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/bin/OpenAL32.dll
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/lib/cmake/OpenAL/OpenALTargets.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/lib/cmake/OpenAL/OpenALTargets-release.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/include/AL/al.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/include/AL/alc.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/include/AL/alext.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/include/AL/efx-creative.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/include/AL/efx-presets.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/include/AL/efx.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/lib/pkgconfig/openal.pc
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/lib/cmake/OpenAL/OpenALConfig.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/share/openal/alsoftrc.sample
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/share/openal/hrtf/Default HRTF.mhr
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/share/openal/presets/3D7.1.ambdec
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/share/openal/presets/hex-quad.ambdec
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/share/openal/presets/hexagon.ambdec
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/share/openal/presets/itu5.1-nocenter.ambdec
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/share/openal/presets/itu5.1.ambdec
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/share/openal/presets/presets.txt
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/share/openal/presets/rectangle.ambdec
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/openal-soft_x86-windows/share/openal/presets/square.ambdec

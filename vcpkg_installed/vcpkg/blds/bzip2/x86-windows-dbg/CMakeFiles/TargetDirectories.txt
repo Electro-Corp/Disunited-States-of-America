@@ -1,0 +1,6 @@
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/bzip2/x86-windows-dbg/CMakeFiles/bz2.dir
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/bzip2/x86-windows-dbg/CMakeFiles/edit_cache.dir
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/bzip2/x86-windows-dbg/CMakeFiles/rebuild_cache.dir
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/bzip2/x86-windows-dbg/CMakeFiles/list_install_components.dir
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/bzip2/x86-windows-dbg/CMakeFiles/install.dir
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/bzip2/x86-windows-dbg/CMakeFiles/install/local.dir

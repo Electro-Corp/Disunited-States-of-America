@@ -1,0 +1,12 @@
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/lib/libpng16.lib
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/bin/libpng16.dll
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/include/png.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/include/pngconf.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/include/pnglibconf.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/include/libpng16/png.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/include/libpng16/pngconf.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/include/libpng16/pnglibconf.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/lib/pkgconfig/libpng16.pc
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/lib/libpng/libpng16.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/lib/libpng/libpng16-release.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/lib/libpng/libpng-config.cmake

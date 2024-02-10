@@ -13,6 +13,7 @@ Transform::Transform::Transform(){
     this->angle = 0;
     this->scale.x = 1;
     this->scale.y = 1;
+    this->position = Vector2(0, 0);
 }
 
 Transform::Transform::Transform(float x, float y, float ang){

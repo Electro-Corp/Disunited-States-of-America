@@ -1,0 +1,54 @@
+[33;1mVERBOSE: Resolving base path E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/tools/brotli/brotli.exe...[0m
+[33;1mVERBOSE: Resolving E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/tools/brotli/brotli.exe...[0m
+[33;1mVERBOSE:   brotlienc.dll: Copying E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\bin\brotlienc.dll[0m
+[33;1mVERBOSE: Resolving E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\tools\brotli\brotlienc.dll...[0m
+[33;1mVERBOSE:   brotlicommon.dll: Copying E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\bin\brotlicommon.dll[0m
+[33;1mVERBOSE: Resolving E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\tools\brotli\brotlicommon.dll...[0m
+[33;1mVERBOSE:   VCRUNTIME140.dll: E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\bin\VCRUNTIME140.dll not found[0m
+[33;1mVERBOSE:   api-ms-win-crt-heap-l1-1-0.dll: E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\bin\api-ms-win-crt-heap-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   api-ms-win-crt-runtime-l1-1-0.dll: E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\bin\api-ms-win-crt-runtime-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   KERNEL32.dll: E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\bin\KERNEL32.dll not found[0m
+[33;1mVERBOSE: Done Resolving E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\tools\brotli\brotlicommon.dll.[0m
+[33;1mVERBOSE:   VCRUNTIME140.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   api-ms-win-crt-math-l1-1-0.dll: E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\bin\api-ms-win-crt-math-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   api-ms-win-crt-heap-l1-1-0.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   api-ms-win-crt-runtime-l1-1-0.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   KERNEL32.dll: previously searched - Skip[0m
+[33;1mVERBOSE: Done Resolving E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\tools\brotli\brotlienc.dll.[0m
+[33;1mVERBOSE:   brotlidec.dll: Copying E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\bin\brotlidec.dll[0m
+[33;1mVERBOSE: Resolving E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\tools\brotli\brotlidec.dll...[0m
+[33;1mVERBOSE:   brotlicommon.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   VCRUNTIME140.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   api-ms-win-crt-heap-l1-1-0.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   api-ms-win-crt-runtime-l1-1-0.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   KERNEL32.dll: previously searched - Skip[0m
+[33;1mVERBOSE: Done Resolving E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\tools\brotli\brotlidec.dll.[0m
+[33;1mVERBOSE:   VCRUNTIME140.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   api-ms-win-crt-runtime-l1-1-0.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   api-ms-win-crt-stdio-l1-1-0.dll: E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\bin\api-ms-win-crt-stdio-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   api-ms-win-crt-math-l1-1-0.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   api-ms-win-crt-filesystem-l1-1-0.dll: E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\bin\api-ms-win-crt-filesystem-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   api-ms-win-crt-heap-l1-1-0.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   api-ms-win-crt-string-l1-1-0.dll: E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\bin\api-ms-win-crt-string-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   api-ms-win-crt-time-l1-1-0.dll: E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\bin\api-ms-win-crt-time-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   api-ms-win-crt-locale-l1-1-0.dll: E:\Electro\Disunited-States-of-America\vcpkg_installed\vcpkg\pkgs\brotli_x86-windows\bin\api-ms-win-crt-locale-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   KERNEL32.dll: previously searched - Skip[0m
+[33;1mVERBOSE: Done Resolving E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/tools/brotli/brotli.exe.[0m
+[33;1mVERBOSE: 
+Name                           Value
+----                           -----
+api-ms-win-crt-filesystem-l1-… True
+api-ms-win-crt-runtime-l1-1-0… True
+api-ms-win-crt-stdio-l1-1-0.d… True
+KERNEL32.dll                   True
+api-ms-win-crt-string-l1-1-0.… True
+api-ms-win-crt-math-l1-1-0.dll True
+brotlicommon.dll               True
+brotlidec.dll                  True
+api-ms-win-crt-heap-l1-1-0.dll True
+VCRUNTIME140.dll               True
+brotlienc.dll                  True
+api-ms-win-crt-time-l1-1-0.dll True
+api-ms-win-crt-locale-l1-1-0.… True
+
+[0m

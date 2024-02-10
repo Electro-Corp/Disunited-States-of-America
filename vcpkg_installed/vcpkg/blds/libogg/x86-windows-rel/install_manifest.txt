@@ -1,0 +1,10 @@
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/lib/ogg.lib
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/bin/ogg.dll
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/include/ogg/config_types.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/include/ogg/ogg.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/include/ogg/os_types.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/lib/cmake/Ogg/OggTargets.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/lib/cmake/Ogg/OggTargets-release.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/lib/cmake/Ogg/OggConfig.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/lib/cmake/Ogg/OggConfigVersion.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/lib/pkgconfig/ogg.pc

@@ -1,0 +1,4 @@
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/zlib_x86-windows/lib/zlib.lib
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/zlib_x86-windows/bin/zlib1.dll
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/zlib_x86-windows/include/zconf.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/zlib_x86-windows/include/zlib.h

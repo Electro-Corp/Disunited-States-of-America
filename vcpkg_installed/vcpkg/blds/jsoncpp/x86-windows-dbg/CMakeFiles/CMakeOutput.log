@@ -1,0 +1,105 @@
+The target system is: Windows - 10.0.22621 - x86
+The host system is: Windows - 10.0.22621 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: E:/vs2022/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x86/cl.exe 
+Build flags: ;/nologo;/DWIN32;/D_WINDOWS;/W3;/utf-8;/GR;/EHsc;/MP;
+Id flags:  
+
+The output was:
+0
+CMakeCXXCompilerId.cpp
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/jsoncpp/x86-windows-dbg/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/jsoncpp/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-zuocuj
+
+Run Build Command(s):E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_09522 && [1/2] Building CXX object CMakeFiles\cmTC_09522.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_09522.exe
+
+
+
+Determining if the include file clocale exists passed with the following output:
+Change Dir: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/jsoncpp/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-wg25ru
+
+Run Build Command(s):E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_7f6ce && [1/2] Building CXX object CMakeFiles\cmTC_7f6ce.dir\CheckIncludeFile.cxx.obj
+[2/2] Linking CXX executable cmTC_7f6ce.exe
+
+
+
+Determining if the localeconv exist passed with the following output:
+Change Dir: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/jsoncpp/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-y3aocx
+
+Run Build Command(s):E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_e432c && [1/2] Building CXX object CMakeFiles\cmTC_e432c.dir\CheckSymbolExists.cxx.obj
+[2/2] Linking CXX executable cmTC_e432c.exe
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <clocale>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef localeconv
+  return ((int*)(&localeconv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/jsoncpp/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-m48wzu
+
+Run Build Command(s):E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_8905a && [1/2] Building CXX object CMakeFiles\cmTC_8905a.dir\CheckIncludeFile.cxx.obj
+[2/2] Linking CXX executable cmTC_8905a.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/jsoncpp/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-prf4t0
+
+Run Build Command(s):E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_ccba2 && [1/2] Building CXX object CMakeFiles\cmTC_ccba2.dir\CheckIncludeFile.cxx.obj
+[2/2] Linking CXX executable cmTC_ccba2.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/jsoncpp/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-yj2zi7
+
+Run Build Command(s):E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_e80a2 && [1/2] Building CXX object CMakeFiles\cmTC_e80a2.dir\CheckIncludeFile.cxx.obj
+[2/2] Linking CXX executable cmTC_e80a2.exe
+
+
+
+Determining size of lconv passed with the following output:
+Change Dir: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/jsoncpp/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-tx1va0
+
+Run Build Command(s):E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_8bb60 && [1/2] Building CXX object CMakeFiles\cmTC_8bb60.dir\LCONV_SIZE.cpp.obj
+[2/2] Linking CXX executable cmTC_8bb60.exe
+
+
+
+Performing C++ SOURCE FILE Test HAVE_DECIMAL_POINT succeeded with the following output:
+Change Dir: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/jsoncpp/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-iplprf
+
+Run Build Command(s):E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_12958 && [1/2] Building CXX object CMakeFiles\cmTC_12958.dir\src.cxx.obj
+[2/2] Linking CXX executable cmTC_12958.exe
+
+
+Source file was:
+
+#include <clocale>
+
+int main()
+{
+  (void)sizeof(((lconv *)0)->decimal_point);
+  return 0;
+}
+
+

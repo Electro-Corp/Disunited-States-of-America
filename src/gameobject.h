@@ -23,7 +23,7 @@ namespace Engine {
             Scripting::Script* script;
             Transform::Transform transform;
 
-            bool drawable;
+            bool drawable = false;
 
             GameObject();
             GameObject(Transform::Transform transform);

@@ -1,0 +1,14 @@
+-- Downloading https://gitlab.xiph.org/xiph/ogg/-/archive/v1.3.5/ogg-v1.3.5.tar.gz -> xiph-ogg-v1.3.5.tar.gz...
+-- Extracting source C:/Users/segfault/AppData/Local/vcpkg/downloads/xiph-ogg-v1.3.5.tar.gz
+-- Using source at E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/libogg/src/v1.3.5-1a4243fef9.clean
+-- Found external ninja('1.11.0').
+-- Configuring x86-windows
+-- Building x86-windows-dbg
+-- Building x86-windows-rel
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/lib/pkgconfig/ogg.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.1.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/msys2/fdbea3694fb5c0d4
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/debug/lib/pkgconfig/ogg.pc
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libogg_x86-windows/share/libogg/copyright
+-- Performing post-build validation

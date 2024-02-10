@@ -1,0 +1,2 @@
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/zlib_x86-windows/debug/lib/zlibd.lib
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/zlib_x86-windows/debug/bin/zlibd1.dll

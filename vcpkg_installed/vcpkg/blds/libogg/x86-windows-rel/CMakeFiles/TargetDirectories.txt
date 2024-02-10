@@ -1,0 +1,8 @@
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/libogg/x86-windows-rel/CMakeFiles/ogg.dir
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/libogg/x86-windows-rel/CMakeFiles/package.dir
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/libogg/x86-windows-rel/CMakeFiles/package_source.dir
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/libogg/x86-windows-rel/CMakeFiles/edit_cache.dir
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/libogg/x86-windows-rel/CMakeFiles/rebuild_cache.dir
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/libogg/x86-windows-rel/CMakeFiles/list_install_components.dir
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/libogg/x86-windows-rel/CMakeFiles/install.dir
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/libogg/x86-windows-rel/CMakeFiles/install/local.dir

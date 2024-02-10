@@ -1,0 +1,5 @@
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/bzip2_x86-windows/lib/bz2.lib
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/bzip2_x86-windows/bin/bz2.dll
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/bzip2_x86-windows/tools/bzip2/bzip2.exe
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/bzip2_x86-windows/tools/bzip2/bzip2recover.exe
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/bzip2_x86-windows/include/bzlib.h

@@ -1,0 +1,18 @@
+-- Downloading https://github.com/xiph/flac/archive/1.4.3.tar.gz -> xiph-flac-1.4.3.tar.gz...
+-- Extracting source C:/Users/segfault/AppData/Local/vcpkg/downloads/xiph-flac-1.4.3.tar.gz
+-- Applying patch fix-compile-options.patch
+-- Using source at E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/libflac/src/1.4.3-00043104ae.clean
+-- Found external ninja('1.11.0').
+-- Configuring x86-windows
+-- Building x86-windows-dbg
+-- Building x86-windows-rel
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libflac_x86-windows/lib/pkgconfig/flac++.pc
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libflac_x86-windows/lib/pkgconfig/flac.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.1.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/msys2/fdbea3694fb5c0d4
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libflac_x86-windows/debug/lib/pkgconfig/flac++.pc
+-- Fixing pkgconfig file: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libflac_x86-windows/debug/lib/pkgconfig/flac.pc
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libflac_x86-windows/share/libflac/copyright
+-- Installing: E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libflac_x86-windows/share/libflac/usage
+-- Performing post-build validation

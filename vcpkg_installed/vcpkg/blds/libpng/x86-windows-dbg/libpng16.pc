@@ -1,0 +1,12 @@
+prefix=E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/debug
+exec_prefix=E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/debug
+libdir=E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/debug/lib
+includedir=E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libpng_x86-windows/debug/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.40
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: 
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libflac_x86-windows
+exec_prefix=E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libflac_x86-windows
+libdir=E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libflac_x86-windows/lib
+includedir=E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/libflac_x86-windows/include
+
+Name: FLAC++
+Description: Free Lossless Audio Codec Library (C++ API)
+Version: 1.4.3
+Requires: flac
+Libs: -L${libdir} -lFLAC++
+Cflags: -I${includedir}

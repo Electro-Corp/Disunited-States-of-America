@@ -1,0 +1,9 @@
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/lua_x86-windows/lib/lua.lib
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/lua_x86-windows/bin/lua.dll
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/lua_x86-windows/share/unofficial-lua/unofficial-lua-config.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/lua_x86-windows/share/unofficial-lua/unofficial-lua-config-release.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/lua_x86-windows/include/lualib.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/lua_x86-windows/include/lua.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/lua_x86-windows/include/luaconf.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/lua_x86-windows/include/lauxlib.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/lua_x86-windows/include/lua.hpp

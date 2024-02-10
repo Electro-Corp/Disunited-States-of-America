@@ -1,0 +1,944 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "CMakeLists.txt:65 (project)"
+    message: |
+      The target system is: Windows - 10.0.22621 - x86
+      The host system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:65 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/vs2022/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x86/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/W3;/utf-8;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/3.27.1/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1158 (message)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:65 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:65 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/vs2022/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x86/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/W3;/utf-8;/GR;/EHsc;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCXXCompilerId.cpp
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/3.27.1/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1158 (message)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:65 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:65 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-rg4yci"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-rg4yci"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-rg4yci'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_4ac6b
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4ac6b.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_4ac6b.dir\\ /FS -c C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_4ac6b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_4ac6b.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_4ac6b.exe /implib:cmTC_4ac6b.lib /pdb:cmTC_4ac6b.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:65 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-vjqsat"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-vjqsat"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-vjqsat'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_4b3c2
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4b3c2.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_4b3c2.dir\\ /FS -c C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_4b3c2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_4b3c2.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_4b3c2.exe /implib:cmTC_4b3c2.lib /pdb:cmTC_4b3c2.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:206 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE___RESTRICT"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-3dy6rm"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-3dy6rm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE___RESTRICT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-3dy6rm'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_66611
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo /TP -DHAVE___RESTRICT  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_66611.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_66611.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-3dy6rm\\src.cxx
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_66611.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_66611.dir\\src.cxx.obj  /out:cmTC_66611.exe /implib:cmTC_66611.lib /pdb:cmTC_66611.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:217 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE_LIBATOMIC"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-lgmggm"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-lgmggm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_LIBATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-lgmggm'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_060ee
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo /TP -DHAVE_LIBATOMIC  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_060ee.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_060ee.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-lgmggm\\src.cxx
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_060ee.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_060ee.dir\\src.cxx.obj  /out:cmTC_060ee.exe /implib:cmTC_060ee.lib /pdb:cmTC_060ee.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  atomic.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_060ee.exe 
+        cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_060ee.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_060ee.dir\\src.cxx.obj  /out:cmTC_060ee.exe /implib:cmTC_060ee.lib /pdb:cmTC_060ee.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  atomic.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_060ee.dir\\src.cxx.obj /out:cmTC_060ee.exe /implib:cmTC_060ee.lib /pdb:cmTC_060ee.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console atomic.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_060ee.dir/intermediate.manifest CMakeFiles\\cmTC_060ee.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'atomic.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:239 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_PERMISSIVE_SWITCH"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-6vuzj9"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-6vuzj9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_PERMISSIVE_SWITCH"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-6vuzj9'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_79bbf
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo /TP -DHAVE_PERMISSIVE_SWITCH  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP   /MDd /Zi /Ob0 /Od /RTC1   /permissive- /showIncludes /FoCMakeFiles\\cmTC_79bbf.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_79bbf.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-6vuzj9\\src.cxx
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_79bbf.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_79bbf.dir\\src.cxx.obj  /out:cmTC_79bbf.exe /implib:cmTC_79bbf.lib /pdb:cmTC_79bbf.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:387 (check_include_file)"
+    checks:
+      - "Looking for xmmintrin.h"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-q4lppe"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-q4lppe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_XMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-q4lppe'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_08252
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_08252.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_08252.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-q4lppe\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_08252.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_08252.dir\\CheckIncludeFile.c.obj  /out:cmTC_08252.exe /implib:cmTC_08252.lib /pdb:cmTC_08252.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:388 (check_include_file)"
+    checks:
+      - "Looking for emmintrin.h"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nbyond"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nbyond"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_EMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nbyond'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_021cb
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_021cb.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_021cb.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-nbyond\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_021cb.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_021cb.dir\\CheckIncludeFile.c.obj  /out:cmTC_021cb.exe /implib:cmTC_021cb.lib /pdb:cmTC_021cb.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:389 (check_include_file)"
+    checks:
+      - "Looking for pmmintrin.h"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-zdjtrq"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-zdjtrq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_PMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-zdjtrq'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_c6391
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c6391.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_c6391.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-zdjtrq\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_c6391.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_c6391.dir\\CheckIncludeFile.c.obj  /out:cmTC_c6391.exe /implib:cmTC_c6391.lib /pdb:cmTC_c6391.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:390 (check_include_file)"
+    checks:
+      - "Looking for smmintrin.h"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-uii62n"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-uii62n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_SMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-uii62n'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_bed85
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_bed85.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_bed85.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-uii62n\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_bed85.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_bed85.dir\\CheckIncludeFile.c.obj  /out:cmTC_bed85.exe /implib:cmTC_bed85.lib /pdb:cmTC_bed85.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:391 (check_include_file)"
+    checks:
+      - "Looking for arm_neon.h"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ubz63v"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ubz63v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_ARM_NEON_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ubz63v'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_568bb
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_568bb.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_568bb.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-ubz63v\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_568bb.dir/CheckIncludeFile.c.obj 
+        E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_568bb.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_568bb.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-ubz63v\\CheckIncludeFile.c
+        E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\include\\arm_neon.h(21): fatal error C1189: #error:  This header is specific to ARM targets
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:461 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_ARCH_SSE2"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-io8ksw"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-io8ksw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_ARCH_SSE2"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-io8ksw'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_f8281
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo -DHAVE_ARCH_SSE2  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1   /arch:SSE2 /showIncludes /FoCMakeFiles\\cmTC_f8281.dir\\src.c.obj /FdCMakeFiles\\cmTC_f8281.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-io8ksw\\src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_f8281.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_f8281.dir\\src.c.obj  /out:cmTC_f8281.exe /implib:cmTC_f8281.lib /pdb:cmTC_f8281.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:489 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_SSE_INTRINSICS"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-dw93qz"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-dw93qz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_SSE_INTRINSICS"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-dw93qz'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_1e7da
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo -DHAVE_SSE_INTRINSICS  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /arch:SSE2 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1e7da.dir\\src.c.obj /FdCMakeFiles\\cmTC_1e7da.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-dw93qz\\src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_1e7da.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_1e7da.dir\\src.c.obj  /out:cmTC_1e7da.exe /implib:cmTC_1e7da.lib /pdb:cmTC_1e7da.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:496 (check_include_file)"
+    checks:
+      - "Looking for malloc.h"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-4piebl"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-4piebl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_MALLOC_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-4piebl'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_e5aef
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e5aef.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_e5aef.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-4piebl\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_e5aef.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_e5aef.dir\\CheckIncludeFile.c.obj  /out:cmTC_e5aef.exe /implib:cmTC_e5aef.lib /pdb:cmTC_e5aef.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:497 (check_include_file)"
+    checks:
+      - "Looking for cpuid.h"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-sm6tdp"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-sm6tdp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_CPUID_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-sm6tdp'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_2611c
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_2611c.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_2611c.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-sm6tdp\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_2611c.dir/CheckIncludeFile.c.obj 
+        E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_2611c.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_2611c.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-sm6tdp\\CheckIncludeFile.c
+        E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-sm6tdp\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'cpuid.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:498 (check_include_file)"
+    checks:
+      - "Looking for intrin.h"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-4jhzw0"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-4jhzw0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_INTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-4jhzw0'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_e2f61
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e2f61.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_e2f61.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-4jhzw0\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_e2f61.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_e2f61.dir\\CheckIncludeFile.c.obj  /out:cmTC_e2f61.exe /implib:cmTC_e2f61.lib /pdb:cmTC_e2f61.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:499 (check_include_file)"
+    checks:
+      - "Looking for guiddef.h"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-1hmxi9"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-1hmxi9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_GUIDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-1hmxi9'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_1049c
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1049c.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_1049c.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-1hmxi9\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_1049c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_1049c.dir\\CheckIncludeFile.c.obj  /out:cmTC_1049c.exe /implib:cmTC_1049c.lib /pdb:cmTC_1049c.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:506 (check_library_exists)"
+    checks:
+      - "Looking for pow in m"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-9aumj5"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-9aumj5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_LIBM"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-9aumj5'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_4de74
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  -DCHECK_FUNCTION_EXISTS=pow /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4de74.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_4de74.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-9aumj5\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_4de74.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_4de74.dir\\CheckFunctionExists.c.obj  /out:cmTC_4de74.exe /implib:cmTC_4de74.lib /pdb:cmTC_4de74.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  m.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_4de74.exe 
+        cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_4de74.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_4de74.dir\\CheckFunctionExists.c.obj  /out:cmTC_4de74.exe /implib:cmTC_4de74.lib /pdb:cmTC_4de74.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  m.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_4de74.dir\\CheckFunctionExists.c.obj /out:cmTC_4de74.exe /implib:cmTC_4de74.lib /pdb:cmTC_4de74.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console m.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_4de74.dir/intermediate.manifest CMakeFiles\\cmTC_4de74.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'm.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:515 (check_library_exists)"
+    checks:
+      - "Looking for clock_gettime in rt"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-4g0dtv"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-4g0dtv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_LIBRT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-4g0dtv'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_67d44
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  -DCHECK_FUNCTION_EXISTS=clock_gettime /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_67d44.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_67d44.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-4g0dtv\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_67d44.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_67d44.dir\\CheckFunctionExists.c.obj  /out:cmTC_67d44.exe /implib:cmTC_67d44.lib /pdb:cmTC_67d44.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  rt.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_67d44.exe 
+        cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_67d44.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_67d44.dir\\CheckFunctionExists.c.obj  /out:cmTC_67d44.exe /implib:cmTC_67d44.lib /pdb:cmTC_67d44.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  rt.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_67d44.dir\\CheckFunctionExists.c.obj /out:cmTC_67d44.exe /implib:cmTC_67d44.lib /pdb:cmTC_67d44.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console rt.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_67d44.dir/intermediate.manifest CMakeFiles\\cmTC_67d44.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'rt.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:522 (check_include_file)"
+    checks:
+      - "Looking for dlfcn.h"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-k727wp"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-k727wp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-k727wp'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_82488
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_82488.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_82488.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-k727wp\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_82488.dir/CheckIncludeFile.c.obj 
+        E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_82488.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_82488.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-k727wp\\CheckIncludeFile.c
+        E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-k727wp\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:523 (check_library_exists)"
+    checks:
+      - "Looking for dlopen in dl"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-5z680d"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-5z680d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_LIBDL"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-5z680d'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_d90a7
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  -DCHECK_FUNCTION_EXISTS=dlopen /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d90a7.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_d90a7.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-5z680d\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_d90a7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_d90a7.dir\\CheckFunctionExists.c.obj  /out:cmTC_d90a7.exe /implib:cmTC_d90a7.lib /pdb:cmTC_d90a7.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  dl.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_d90a7.exe 
+        cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_d90a7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_d90a7.dir\\CheckFunctionExists.c.obj  /out:cmTC_d90a7.exe /implib:cmTC_d90a7.lib /pdb:cmTC_d90a7.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  dl.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_d90a7.dir\\CheckFunctionExists.c.obj /out:cmTC_d90a7.exe /implib:cmTC_d90a7.lib /pdb:cmTC_d90a7.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console dl.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d90a7.dir/intermediate.manifest CMakeFiles\\cmTC_d90a7.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'dl.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:540 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_CPUID_INTRINSIC"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-usw2qo"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-usw2qo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_CPUID_INTRINSIC"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-usw2qo'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_4828a
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo -DHAVE_CPUID_INTRINSIC  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4828a.dir\\src.c.obj /FdCMakeFiles\\cmTC_4828a.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-usw2qo\\src.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_4828a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_4828a.dir\\src.c.obj  /out:cmTC_4828a.exe /implib:cmTC_4828a.lib /pdb:cmTC_4828a.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:549 (check_symbol_exists)"
+    checks:
+      - "Looking for posix_memalign"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-i720vl"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-i720vl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_POSIX_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-i720vl'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_e4e4a
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e4e4a.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_e4e4a.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-i720vl\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_e4e4a.dir/CheckSymbolExists.c.obj 
+        E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e4e4a.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_e4e4a.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-i720vl\\CheckSymbolExists.c
+        E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-i720vl\\CheckSymbolExists.c(8): error C2065: 'posix_memalign': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:550 (check_symbol_exists)"
+    checks:
+      - "Looking for _aligned_malloc"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-t8u7vs"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-t8u7vs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE__ALIGNED_MALLOC"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-t8u7vs'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_08a73
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_08a73.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_08a73.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-t8u7vs\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_08a73.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_08a73.dir\\CheckSymbolExists.c.obj  /out:cmTC_08a73.exe /implib:cmTC_08a73.lib /pdb:cmTC_08a73.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:551 (check_symbol_exists)"
+    checks:
+      - "Looking for proc_pidpath"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-2ee0ig"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-2ee0ig"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_PROC_PIDPATH"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-2ee0ig'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_e996a
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e996a.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_e996a.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-2ee0ig\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_e996a.dir/CheckSymbolExists.c.obj 
+        E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e996a.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_e996a.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-2ee0ig\\CheckSymbolExists.c
+        E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-2ee0ig\\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'libproc.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:585 (check_symbol_exists)"
+    checks:
+      - "Looking for getopt"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-8uh9uf"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-8uh9uf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_GETOPT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-8uh9uf'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_40f8c
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_40f8c.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_40f8c.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-8uh9uf\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_40f8c.dir/CheckSymbolExists.c.obj 
+        E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_40f8c.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_40f8c.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-8uh9uf\\CheckSymbolExists.c
+        E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-8uh9uf\\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/segfault/AppData/Local/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:1034 (check_include_file)"
+    checks:
+      - "Looking for mmdeviceapi.h"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-0bq6b5"
+      binary: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-0bq6b5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/Electro/Disunited-States-of-America/tmp/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x86"
+      VCPKG_TARGET_TRIPLET: "x86-windows"
+      Z_VCPKG_ROOT_DIR: "E:/Electro/Disunited-States-of-America/tmp/vcpkg"
+    buildResult:
+      variable: "HAVE_MMDEVICEAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/blds/openal-soft/x86-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-0bq6b5'
+        
+        Run Build Command(s): E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_a73aa
+        [1/2] E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a73aa.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_a73aa.dir\\ /FS -c E:\\Electro\\Disunited-States-of-America\\vcpkg_installed\\vcpkg\\blds\\openal-soft\\x86-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-0bq6b5\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && C:\\Users\\segfault\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_a73aa.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- E:\\vs2022\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_a73aa.dir\\CheckIncludeFile.c.obj  /out:cmTC_a73aa.exe /implib:cmTC_a73aa.lib /pdb:cmTC_a73aa.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...

@@ -1,0 +1,17 @@
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/tools/brotli/brotli.exe
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/lib/brotlienc.lib
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/bin/brotlienc.dll
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/lib/brotlidec.lib
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/bin/brotlidec.dll
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/lib/brotlicommon.lib
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/bin/brotlicommon.dll
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/include/brotli/decode.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/include/brotli/encode.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/include/brotli/port.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/include/brotli/shared_dictionary.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/include/brotli/types.h
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/share/unofficial-brotli/unofficial-brotli-config.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/share/unofficial-brotli/unofficial-brotli-config-release.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/lib/pkgconfig/libbrotlicommon.pc
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/lib/pkgconfig/libbrotlidec.pc
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/brotli_x86-windows/lib/pkgconfig/libbrotlienc.pc

@@ -1,0 +1,4 @@
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/lua_x86-windows/debug/lib/lua.lib
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/lua_x86-windows/debug/bin/lua.dll
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/lua_x86-windows/debug/share/unofficial-lua/unofficial-lua-config.cmake
+E:/Electro/Disunited-States-of-America/vcpkg_installed/vcpkg/pkgs/lua_x86-windows/debug/share/unofficial-lua/unofficial-lua-config-debug.cmake
