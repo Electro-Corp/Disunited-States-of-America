@@ -50,6 +50,7 @@ add_executable(DSA
     src/gameObjects/ui/text.cpp
     # utils
     src/utils/jsonReader.cpp
+    src/utils/stateColor.cpp
     # main
     src/main.cpp
 )

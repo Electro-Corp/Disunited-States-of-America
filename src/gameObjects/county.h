@@ -4,6 +4,7 @@
 #include <utils/jsonReader.h>
 #include <vector>
 #include <exception>
+#include <utils/stateColor.h>
 
 #include <random>
 
@@ -18,7 +19,7 @@ namespace Game {
         sf::VertexArray lines;
         bool error;
     public:
-        County(std::string filePath);
+        County(std::string filePath, StateColorManagerTemp *manager);
 
         void draw(sf::RenderWindow* window) override;
 

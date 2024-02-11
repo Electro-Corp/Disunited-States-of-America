@@ -1,0 +1,275 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.8.5+b5265ef37 for .NET Framework
+      Build started 2/10/2024 7:05:18 PM.
+      
+      Project "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\3.27.2-msvc1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      VcpkgCheckManifestRoot:
+        The vcpkg manifest was disabled, but we found a manifest file in E:\\Electro\\Disunited-States-of-America\\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+      ClCompile:
+        E:\\vs2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        E:\\vs2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\3.27.2-msvc1\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\3.27.2-msvc1\\CompilerIdC\\CompilerIdC.exe" "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\3.27.2-msvc1\\CompilerIdC\\CompilerIdC.exe" "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\3.27.2-msvc1\\CompilerIdC\\CompilerIdC.exe" "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=E:\\vs2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\3.27.2-msvc1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.21
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Electro/Disunited-States-of-America/CMakeFiles/3.27.2-msvc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.8.5+b5265ef37 for .NET Framework
+      Build started 2/10/2024 7:05:20 PM.
+      
+      Project "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\3.27.2-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      VcpkgCheckManifestRoot:
+        The vcpkg manifest was disabled, but we found a manifest file in E:\\Electro\\Disunited-States-of-America\\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+      ClCompile:
+        E:\\vs2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        E:\\vs2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\3.27.2-msvc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\3.27.2-msvc1\\CompilerIdCXX\\CompilerIdCXX.exe" "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\3.27.2-msvc1\\CompilerIdCXX\\CompilerIdCXX.exe" "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\3.27.2-msvc1\\CompilerIdCXX\\CompilerIdCXX.exe" "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=E:\\vs2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\3.27.2-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.12
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Electro/Disunited-States-of-America/CMakeFiles/3.27.2-msvc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/CMakeFiles/CMakeScratch/TryCompile-c6x6k1"
+      binary: "E:/Electro/Disunited-States-of-America/CMakeFiles/CMakeScratch/TryCompile-c6x6k1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/CMakeFiles/CMakeScratch/TryCompile-c6x6k1'
+        
+        Run Build Command(s): E:/vs2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8229b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.8.5+b5265ef37 for .NET Framework
+        Build started 2/10/2024 7:05:21 PM.
+        
+        Project "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\CMakeScratch\\TryCompile-c6x6k1\\cmTC_8229b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8229b.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\CMakeScratch\\TryCompile-c6x6k1\\Debug\\".
+          Creating directory "cmTC_8229b.dir\\Debug\\cmTC_8229b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8229b.dir\\Debug\\cmTC_8229b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8229b.dir\\Debug\\cmTC_8229b.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        VcpkgCheckManifestRoot:
+          The vcpkg manifest was disabled, but we found a manifest file in E:\\Electro\\Disunited-States-of-America\\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+        ClCompile:
+          E:\\vs2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8229b.dir\\Debug\\\\" /Fd"cmTC_8229b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\vs2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33135 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8229b.dir\\Debug\\\\" /Fd"cmTC_8229b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\vs2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          E:\\vs2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\CMakeScratch\\TryCompile-c6x6k1\\Debug\\cmTC_8229b.exe" /INCREMENTAL /ILK:"cmTC_8229b.dir\\Debug\\cmTC_8229b.ilk" /NOLOGO /LIBPATH:"E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Electro/Disunited-States-of-America/CMakeFiles/CMakeScratch/TryCompile-c6x6k1/Debug/cmTC_8229b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Electro/Disunited-States-of-America/CMakeFiles/CMakeScratch/TryCompile-c6x6k1/Debug/cmTC_8229b.lib" /MACHINE:X64  /machine:x64 cmTC_8229b.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_8229b.vcxproj -> E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\CMakeScratch\\TryCompile-c6x6k1\\Debug\\cmTC_8229b.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\CMakeScratch\\TryCompile-c6x6k1\\Debug\\cmTC_8229b.exe" "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_8229b.dir\\Debug\\cmTC_8229b.tlog\\cmTC_8229b.write.1u.tlog" "cmTC_8229b.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\CMakeScratch\\TryCompile-c6x6k1\\Debug\\cmTC_8229b.exe" "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_8229b.dir\\Debug\\cmTC_8229b.tlog\\cmTC_8229b.write.1u.tlog" "cmTC_8229b.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\CMakeScratch\\TryCompile-c6x6k1\\Debug\\cmTC_8229b.exe" "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_8229b.dir\\Debug\\cmTC_8229b.tlog\\cmTC_8229b.write.1u.tlog" "cmTC_8229b.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8229b.dir\\Debug\\cmTC_8229b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8229b.dir\\Debug\\cmTC_8229b.tlog\\cmTC_8229b.lastbuildstate".
+        Done Building Project "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\CMakeScratch\\TryCompile-c6x6k1\\cmTC_8229b.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.43
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/vs2022/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Electro/Disunited-States-of-America/CMakeFiles/CMakeScratch/TryCompile-qse7va"
+      binary: "E:/Electro/Disunited-States-of-America/CMakeFiles/CMakeScratch/TryCompile-qse7va"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Electro/Disunited-States-of-America/CMakeFiles/CMakeScratch/TryCompile-qse7va'
+        
+        Run Build Command(s): E:/vs2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bc399.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.8.5+b5265ef37 for .NET Framework
+        Build started 2/10/2024 7:05:23 PM.
+        
+        Project "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\CMakeScratch\\TryCompile-qse7va\\cmTC_bc399.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_bc399.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\CMakeScratch\\TryCompile-qse7va\\Debug\\".
+          Creating directory "cmTC_bc399.dir\\Debug\\cmTC_bc399.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bc399.dir\\Debug\\cmTC_bc399.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bc399.dir\\Debug\\cmTC_bc399.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        VcpkgCheckManifestRoot:
+          The vcpkg manifest was disabled, but we found a manifest file in E:\\Electro\\Disunited-States-of-America\\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+        ClCompile:
+          E:\\vs2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bc399.dir\\Debug\\\\" /Fd"cmTC_bc399.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\vs2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33135 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bc399.dir\\Debug\\\\" /Fd"cmTC_bc399.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\vs2022\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          E:\\vs2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\CMakeScratch\\TryCompile-qse7va\\Debug\\cmTC_bc399.exe" /INCREMENTAL /ILK:"cmTC_bc399.dir\\Debug\\cmTC_bc399.ilk" /NOLOGO /LIBPATH:"E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Electro/Disunited-States-of-America/CMakeFiles/CMakeScratch/TryCompile-qse7va/Debug/cmTC_bc399.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Electro/Disunited-States-of-America/CMakeFiles/CMakeScratch/TryCompile-qse7va/Debug/cmTC_bc399.lib" /MACHINE:X64  /machine:x64 cmTC_bc399.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_bc399.vcxproj -> E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\CMakeScratch\\TryCompile-qse7va\\Debug\\cmTC_bc399.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\CMakeScratch\\TryCompile-qse7va\\Debug\\cmTC_bc399.exe" "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_bc399.dir\\Debug\\cmTC_bc399.tlog\\cmTC_bc399.write.1u.tlog" "cmTC_bc399.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\CMakeScratch\\TryCompile-qse7va\\Debug\\cmTC_bc399.exe" "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_bc399.dir\\Debug\\cmTC_bc399.tlog\\cmTC_bc399.write.1u.tlog" "cmTC_bc399.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\CMakeScratch\\TryCompile-qse7va\\Debug\\cmTC_bc399.exe" "E:\\Electro\\Disunited-States-of-America\\tmp\\vcpkg\\installed\\x64-windows\\bin" "cmTC_bc399.dir\\Debug\\cmTC_bc399.tlog\\cmTC_bc399.write.1u.tlog" "cmTC_bc399.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bc399.dir\\Debug\\cmTC_bc399.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bc399.dir\\Debug\\cmTC_bc399.tlog\\cmTC_bc399.lastbuildstate".
+        Done Building Project "E:\\Electro\\Disunited-States-of-America\\CMakeFiles\\CMakeScratch\\TryCompile-qse7va\\cmTC_bc399.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.70
+        
+      exitCode: 0
+...

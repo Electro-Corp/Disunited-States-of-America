@@ -18,6 +18,10 @@
 #include <gameObjects/county.h>
 #include <gameObjects/ui/text.h>
 
+#include <utils/stateColor.h>
+
+
+
 
 namespace fs = std::filesystem;
 
@@ -41,6 +45,8 @@ int main(int argv, char** args){
 
 
 	Game::DSA* game = new Game::DSA();
+
+	StateColorManagerTemp* colorManager = new StateColorManagerTemp();
 
 	Engine::Scene scene("Test");
 	Engine::Scene loading("Loading");
@@ -109,7 +115,7 @@ int main(int argv, char** args){
 		loadingText->setText(std::string{"Loading.. " + std::to_string(load) + "%"});
     	
 		// Load county
-		Game::County* county = new Game::County(entry.path().string());
+		Game::County* county = new Game::County(entry.path().string(), (colorManager));
 		game->loadScript(county, "../assets/scripts/gameObjs/county.lua");
 
 		if(load == 50){

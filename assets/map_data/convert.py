@@ -75,7 +75,8 @@ for feature in geo["features"]:
         county = {
             "NAME" : feature["properties"]["NAME"],
             "POINTS" : pointData,
-            "ID" : done
+            "ID" : done,
+            "STATEID" : int(feature["properties"]["STATEFP"])
         }
 
         file.writelines(str(json.dumps(county)))
