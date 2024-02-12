@@ -18,6 +18,11 @@
 #include <gameObjects/county.h>
 #include <gameObjects/ui/text.h>
 
+#include <utils/stateColor.h>
+#include <thread>
+
+
+
 
 namespace fs = std::filesystem;
 
@@ -41,6 +46,8 @@ int main(int argv, char** args){
 
 
 	Game::DSA* game = new Game::DSA();
+
+	StateColorManagerTemp* colorManager = new StateColorManagerTemp();
 
 	Engine::Scene scene("Test");
 	Engine::Scene loading("Loading");
@@ -92,6 +99,8 @@ int main(int argv, char** args){
 	
 	//scene.addObject(boat);
 	
+	
+
 	float fileTot = std::distance(fs::directory_iterator("../assets/map_data/counties"), fs::directory_iterator{});
 	float count = 0;
 	// load all of the US
@@ -109,7 +118,7 @@ int main(int argv, char** args){
 		loadingText->setText(std::string{"Loading.. " + std::to_string(load) + "%"});
     	
 		// Load county
-		Game::County* county = new Game::County(entry.path().string());
+		Game::County* county = new Game::County(entry.path().string(), (colorManager));
 		game->loadScript(county, "../assets/scripts/gameObjs/county.lua");
 
 		if(load == 50){
@@ -131,10 +140,12 @@ int main(int argv, char** args){
 
 	scene.addObject(camera);
 
-	camera->updateScript();
-
 	game->initScripts();
 
+	camera->updateScript();
+
+	
+	printf("trasnform udpated!\n");
 
 	float fadeSpeed = 0.1f;
 	// Fade out

@@ -6,7 +6,7 @@ Game::DSA::DSA(){
     this->renderer = new Rendering::Renderer(std::string("Disunited States of America"), 800, 600, this);
     scriptMan = new Scripting::ScriptManager("../assets/scripts", renderer);
 
-    std::cout << "NUNTICLE\n";
+    std::cout << "DISUNITED STATES OF AMERICA\n";
 }
 
 /**
