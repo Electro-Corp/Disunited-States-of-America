@@ -33,7 +33,7 @@ namespace Rendering{
             // Game Instance
             Game::DSA* game;
         public:
-            float mouseX, mouseY, mouseDelta;
+            float mouseX, mouseY, mouseDelta, zoom;
             bool mouseDown;
             
 
@@ -53,6 +53,9 @@ namespace Rendering{
             void changeTitle(std::string);
 
             Transform::Vector2 getWindowSize();
+
+            Transform::Vector2 getViewPos();
+
 
             float getDeltaTime();
 

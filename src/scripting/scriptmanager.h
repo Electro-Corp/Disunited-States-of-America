@@ -44,6 +44,8 @@ namespace Scripting{
 
             void setGameObj(Engine::GameObject*);
 
+            luabridge::LuaRef getUpdateFunc();
+
             void update();
     };
 
@@ -68,5 +70,7 @@ namespace Scripting{
 
             // Expose Scene features to Lua
             void exposeScene();
+
+            lua_State* getLuaState();
     };
 };

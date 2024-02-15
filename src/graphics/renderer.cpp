@@ -6,6 +6,7 @@ Rendering::Renderer::Renderer(std::string title, int width, int height, Game::DS
     window = new sf::RenderWindow(sf::VideoMode(width, height), title);
     this->currentView = window->getDefaultView();
     this->game = game;
+    zoom = 1.0f;
 }
 
 
@@ -39,9 +40,7 @@ void Rendering::Renderer::update(Engine::Scene scene){
         // Draw
         for (Engine::GameObject* gameObj : scene.getObjs()){
             gameObj->update();
-            //if(gameObj->drawable)
             gameObj->draw(window);
-                //window->draw(*(gameObj->getSprite()->getSprite()));
         }
         // Display
         window->display();
@@ -67,6 +66,7 @@ void Rendering::Renderer::setView(float x, float y){
 void Rendering::Renderer::zoomView(float delta){
     currentView.zoom(delta);
     this->mouseDelta = 0.0f;
+    zoom = delta;
 }
 
 void Rendering::Renderer::rotateView(float delta){
@@ -75,6 +75,11 @@ void Rendering::Renderer::rotateView(float delta){
 Transform::Vector2 Rendering::Renderer::getWindowSize(){
     return Transform::Vector2(window->getSize().x, window->getSize().y);
 }
+
+Transform::Vector2 Rendering::Renderer::getViewPos(){
+    return Transform::Vector2(currentView.getCenter().x, currentView.getCenter().y);
+}
+
 
 void Rendering::Renderer::changeTitle(std::string title){
     window->setTitle(title);

@@ -12,6 +12,10 @@ void Scripting::Script::setGameObj(Engine::GameObject* obj){
     this->thisObj = obj;
 }
 
+luabridge::LuaRef Scripting::Script::getUpdateFunc(){
+    return updateFunc;
+}
+
 void Scripting::Script::update(){
     updateFunc(thisObj);
 }
@@ -78,13 +82,6 @@ void Scripting::ScriptManager::exposeGame(){
         .addProperty("transform", &Engine::GameObject::transform)
         .endClass();
 
-    /*luabridge::getGlobalNamespace(m_luaState)
-        .beginClass<Game::County>("County")
-        .addConstructor<void(*) (std::string)>()
-        .addFunction("highlightColor", &Game::County::highlightColor)
-        .addFunction("defaultColor", &Game::County::defaultColor)
-        .endClass();*/
-
     luabridge::getGlobalNamespace(m_luaState)
         .beginClass<Rendering::Renderer>("Renderer")
         .addConstructor<void(*) (std::string, int, int, Game::DSA*)>()
@@ -92,12 +89,18 @@ void Scripting::ScriptManager::exposeGame(){
         .addProperty("mouseY", &Rendering::Renderer::mouseY)
         .addProperty("mouseDown", &Rendering::Renderer::mouseDown)
         .addProperty("mouseDelta", &Rendering::Renderer::mouseDelta)
+        .addProperty("zoom", &Rendering::Renderer::zoom)
         .addFunction("moveView", &Rendering::Renderer::moveView)
         .addFunction("setView", &Rendering::Renderer::setView)
         .addFunction("getWindowSize", &Rendering::Renderer::getWindowSize)
+        .addFunction("getViewPos", &Rendering::Renderer::getViewPos)
         .addFunction("zoomView", &Rendering::Renderer::zoomView)
         .addFunction("rotateView", &Rendering::Renderer::rotateView)
         .endClass();
 
     luabridge::setGlobal(m_luaState, m_renderManGlob.get(), "Graphics");
+}
+
+lua_State* Scripting::ScriptManager::getLuaState(){
+    return m_luaState;
 }

@@ -32,6 +32,10 @@ void Game::DSA::changeWindowTitle(std::string title){
     this->renderer->changeTitle(title);
 }
 
+lua_State* Game::DSA::getLuaState(){
+    return scriptMan->getLuaState();
+}
+
 void Game::DSA::endGame(){
     // Confirm
     // Exit

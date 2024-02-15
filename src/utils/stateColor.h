@@ -20,6 +20,8 @@ private:
 	std::random_device rand_dev;
 	std::mt19937 generator;
 	std::uniform_int_distribution <int> distr;
+
+    void sort();
 public:
 	StateColorManagerTemp();
 

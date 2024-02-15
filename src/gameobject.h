@@ -37,7 +37,7 @@ namespace Engine {
             // Return the sprite
             Rendering::Sprite* getSprite();
 
-            void updateScript();
+            virtual void updateScript();
             void updateTransform();
 
             virtual void draw(sf::RenderWindow* window);

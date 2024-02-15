@@ -36,6 +36,8 @@ namespace Game{
 
         float getTime();
 
+        lua_State* getLuaState();
+
         void endGame();
     };
 }

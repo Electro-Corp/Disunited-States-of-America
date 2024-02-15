@@ -23,6 +23,8 @@ namespace Game {
 
         void draw(sf::RenderWindow* window) override;
 
+        void updateScript() override;
+
         void highlightColor();
 
         void defaultColor();

@@ -3,8 +3,6 @@
  * 
  * its not very good and exists only for testing
 */
-
-
 #include <iostream>
 #include <math.h>
 #include <filesystem>
@@ -21,10 +19,16 @@
 #include <utils/stateColor.h>
 #include <thread>
 
-
-
-
 namespace fs = std::filesystem;
+
+bool renderLoad = false;
+
+void renderScreen(Game::DSA* dsa, Engine::Scene* scene){
+	while(renderLoad){
+		dsa->tick(*scene);
+	}
+}
+
 
 int main(int argv, char** args){
 	// make a music/audio manager in the future
@@ -46,6 +50,14 @@ int main(int argv, char** args){
 
 
 	Game::DSA* game = new Game::DSA();
+
+	// show em whats up (shitty hack fix later)
+	luabridge::getGlobalNamespace(game->getLuaState())
+        .beginClass<Game::County>("County")
+        .addFunction("highlightColor", &Game::County::highlightColor)
+        .addFunction("defaultColor", &Game::County::defaultColor)
+        .endClass();
+
 
 	StateColorManagerTemp* colorManager = new StateColorManagerTemp();
 
@@ -98,11 +110,11 @@ int main(int argv, char** args){
 	//scene.addObject(map);
 	
 	//scene.addObject(boat);
-	
-	
+
 
 	float fileTot = std::distance(fs::directory_iterator("../assets/map_data/counties"), fs::directory_iterator{});
 	float count = 0;
+	
 	// load all of the US
 	for (const auto & entry : fs::directory_iterator("../assets/map_data/counties")){
 		if(music.getVolume() < 100) music.setVolume(music.getVolume() + 0.1);
@@ -132,9 +144,9 @@ int main(int argv, char** args){
 
 	game->changeWindowTitle("Disunited States of America");
 
-	loadingText->setSize(0);
-	quoteText->setSize(0);
+	loadingText->setText("Init Scripts");
 
+	game->tick(loading);
 
 	scene.addObject(loadBG);
 
@@ -144,10 +156,15 @@ int main(int argv, char** args){
 
 	camera->updateScript();
 
+	loadingText->setSize(0);
+	quoteText->setSize(0);
+
+	renderLoad = false;
+
 	
 	printf("trasnform udpated!\n");
 
-	float fadeSpeed = 0.1f;
+	float fadeSpeed = 0.5f;
 	// Fade out
 	for(float i = 255; i > 0; i -= fadeSpeed * game->getTime()){
 		loadBG->transform.position = camera->transform.position;

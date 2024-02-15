@@ -5,26 +5,20 @@ Game::County::County(std::string filename, StateColorManagerTemp* manager) : Eng
     drawable = false;
     JsonReader tmp(filename);
     Json::Value val = tmp.read();
-    county = sf::VertexArray(sf::TriangleFan, val["POINTS"].size());
-    lines = sf::VertexArray(sf::LineStrip, val["POINTS"].size());
+    int size = val["POINTS"].size();
+    county = sf::VertexArray(sf::TriangleFan, size);
+    lines = sf::VertexArray(sf::LineStrip, size);
     float mulsize = 10; 
 
-    /*const int range_from = 0;
-    const int range_to = 255;
-    std::random_device rand_dev;
-    std::mt19937 generator(rand_dev());
-    std::bernoulli_distribution<int> distr(range_from, range_to);
-
-
-    int r = distr(generator), g = distr(generator), b = distr(generator);*/
-    
     try{
         StateColor stateTmp = manager->getStateByID(val["STATEID"].asInt());
         int r = stateTmp.r, b = stateTmp.b, g = stateTmp.g;
         // Load county data
-        for(int i = 0; i < val["POINTS"].size(); i++){
+        for(int i = 0; i < size; i++){
             county[i].position = sf::Vector2f((val["POINTS"][i][0].asFloat() * mulsize) + 1000, (val["POINTS"][i][1].asFloat() * -mulsize) + 400);
             county[i].color = sf::Color(r,g,b);
+            this->transform.position.x = county[i].position.x;
+            this->transform.position.y = county[i].position.y;
 
             lines[i].position = sf::Vector2f((val["POINTS"][i][0].asFloat() * mulsize) + 1000, (val["POINTS"][i][1].asFloat() * -mulsize) + 400);
             lines[i].color = sf::Color::Black;
@@ -51,9 +45,13 @@ void Game::County::defaultColor(){
     }
 }
 
+void Game::County::updateScript(){
+    this->script->getUpdateFunc()(this, this->transform);
+}
+
 void Game::County::draw(sf::RenderWindow* window){
     if(!error){
         window->draw(county);
-        //window->draw(lines);
+        window->draw(lines);
     }
 }
